@@ -16,37 +16,37 @@ const Facilities = () => {
       name: "Telekomunikasi",
       designation: "Infrastruktur Komunikasi",
       quote: "Ketersediaan sinyal seluler dan akses jaringan yang memadai untuk kebutuhan komunikasi warga.",
-      src: "/images/sumber.png", // Ganti dengan path gambar yang sesuai
+      src: "/images/telekomunikasi.jpg", // Ganti dengan path gambar yang sesuai
     },
     {
       name: "Sarana Air Bersih",
       designation: "Sumber Kehidupan Warga",
       quote: "Akses air bersih yang terjamin dari sumber mata air untuk seluruh lingkungan.",
-      src: "/images/sumber.png", // Ganti dengan path gambar yang sesuai
+      src: "/images/sumberair.jpg", // Ganti dengan path gambar yang sesuai
     },
     {
       name: "Pemakaman Umum",
       designation: "Tempat Peristirahatan Terakhir",
       quote: "Menyediakan area pemakaman yang layak dan terkelola dengan baik untuk warga.",
-      src: "/images/sumber.png", // Ganti dengan path gambar yang sesuai
+      src: "/images/pemakaman.jpg", // Ganti dengan path gambar yang sesuai
     },
     {
       name: "Sekolah",
       designation: "Fasilitas Pendidikan Berkualitas",
       quote: "Sarana pendidikan berkualitas untuk semua kelompok usia.",
-      src: "/images/sumber.png", // Ganti dengan path gambar yang sesuai
+      src: "/images/pendidikan.jpg", // Ganti dengan path gambar yang sesuai
     },
     {
       name: "Masjid",
       designation: "Tempat Ibadah",
       quote: "Tempat yang tenang untuk beribadah dan refleksi diri.",
-      src: "/images/sumber.png", // Ganti dengan path gambar yang sesuai
+      src: "/images/masjid.jpg", // Ganti dengan path gambar yang sesuai
     },
     {
       name: "Akses Jalan",
       designation: "Konektivitas & Aksesibilitas",
       quote: "Infrastruktur jalan yang memadai untuk menghubungkan antar dusun dan memperlancar aktivitas warga.",
-      src: "/images/sumber.png", // Ganti dengan path gambar yang sesuai
+      src: "/images/jalan.jpg", // Ganti dengan path gambar yang sesuai
     },
   ];
 

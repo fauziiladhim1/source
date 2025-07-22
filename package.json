@@ -10,10 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.2",
     "@heroicons/react": "^2.2.0",
     "@material-tailwind/react": "^2.1.10",
     "@splinetool/react-spline": "^4.0.0",
     "@tabler/icons-react": "^3.34.0",
+    "@turf/turf": "^7.2.0",
     "aos": "^3.0.0-beta.6",
     "boxicons": "^2.1.4",
     "chart.js": "^4.5.0",

@@ -1,43 +1,42 @@
-import React from 'react';
-
 const LayerControl = ({ layers, onToggle }) => {
   const landUseColors = {
-    'Sungai': '#4a90e2', // Water blue, consistent with river if it's a fill layer
-    'Tempat Tinggal': '#e57373', // Softer red for residential
-    'Sawah': '#81c784', // Fresh green for rice fields
-    'Kebun Campur': '#aed581', // Lighter green for mixed garden
-    'Rumput': '#c5e1a5', // Pale green for grass
-    'Tegalan/Ladang': '#d4a373', // Earthy brown for dry land/fields
-    'Lahan Terbuka (Tanah Kosong)': '#b0bec5', // Light grey-blue for open land
-    'Hutan': '#388e3c', // Darker green for forest
-    'Peternakan': '#ffb74d', // Orange for animal husbandry
-    'Perkebunan': '#558b2f', // Olive green for plantations
-    'Perdagangan dan Jasa': '#ff8a65', // Peach for commercial/services
-    'Pendidikan': '#7986cb', // Muted purple-blue for education
-    'Peribadatan': '#9575cd', // Deeper purple for worship
-    'Telekomunikasi': '#64b5f6', // Sky blue for telecommunications
-    'Perikanan air tawar': '#4fc3f7', // Lighter blue for freshwater fisheries
-    'Pekarangan': '#a5d6a7', // Light mint green for yards
-    'Pemakaman': '#757575', // Dark grey for cemeteries
-    'Semak Belukar': '#7cb342', // Green-yellow for bushes
-    'Industri dan Perdagangan': '#a1887f', // Brown-grey for industry/commerce
-    'Vegetasi Non Budidaya Lainnya': '#66bb6a', // Medium green for other non-cultivated vegetation
+    'Sungai': '#4a90e2',
+    'Tempat Tinggal': '#e57373',
+    'Sawah': '#81c784',
+    'Kebun Campur': '#aed581',
+    'Rumput': '#c5e1a5',
+    'Tegalan/Ladang': '#d4a373',
+    'Lahan Terbuka (Tanah Kosong)': '#b0bec5',
+    'Hutan': '#388e3c',
+    'Peternakan': '#ffb74d',
+    'Perkebunan': '#558b2f',
+    'Perdagangan dan Jasa': '#ff8a65',
+    'Pendidikan': '#7986cb',
+    'Peribadatan': '#9575cd',
+    'Telekomunikasi': '#64b5f6',
+    'Perikanan air tawar': '#4fc3f7',
+    'Pekarangan': '#a5d6a7',
+    'Pemakaman': '#757575',
+    'Semak Belukar': '#7cb342',
+    'Industri dan Perdagangan': '#a1887f',
+    'Vegetasi Non Budidaya Lainnya': '#66bb6a',
   };
 
   const roadColors = {
-    'Jalan Lain': { color: '#ff6f00', width: '2px' }, // Orange, medium width
-    'Jalan Lokal': { color: '#bf360c', width: '3px' }, // Darker red, wider
-    'Jalan Setapak': { color: '#8d6e63', width: '1px' }, // Brown, thin
-    'Lokal': { color: '#d32f2f', width: '3px' }, // Red, wider
-    'Pematang': { color: '#a1887f', width: '1px' }, // Muted brown, thin
+    'Jalan Lain': { color: '#ff6f00', width: '2px' },
+    'Jalan Lokal': { color: '#bf360c', width: '3px' },
+    'Jalan Setapak': { color: '#8d6e63', width: '1px' },
+    'Lokal': { color: '#d32f2f', width: '3px' },
+    'Pematang': { color: '#a1887f', width: '1px' },
   };
 
-  const facilityColors = {
-    'Telekomunikasi': '#64b5f6',
-    'Peribadatan': '#9575cd',
-    'Pendidikan': '#7986cb',
-    'Pemakaman': '#757575',
-    'Industri': '#a1887f',
+  // Definisikan path ikon PNG untuk legenda
+  const facilityIcons = {
+    'Telekomunikasi': '/icon/telekomunikasi.png',
+    'Peribadatan': '/icon/peribadatan.png',
+    'Pendidikan': '/icon/pendidikan.png',
+    'Pemakaman': '/icon/pemakaman.png',
+    'Industri': '/icon/industri.png',
   };
 
   return (
@@ -76,16 +75,22 @@ const LayerControl = ({ layers, onToggle }) => {
                     <span>{key}</span>
                   </div>
                 ))}
+                {group.id === 'bangunan-group' && (
+                  <div className="flex items-center space-x-3 mb-1">
+                    <div className="w-5 h-5 rounded-sm" style={{ backgroundColor: '#d9a86b', border: '1px solid rgba(255,255,255,0.2)', boxShadow: '0 1px 3px rgba(0,0,0,0.3)' }}></div>
+                    <span>Bangunan</span>
+                  </div>
+                )}
                 {group.id === 'transportasi-group' && Object.entries(roadColors).map(([key, { color, width }]) => (
                   <div key={key} className="flex items-center space-x-3 mb-1">
                     <div className="w-5" style={{ backgroundColor: color, height: width, boxShadow: '0 1px 3px rgba(0,0,0,0.3)' }}></div>
                     <span>{key}</span>
                   </div>
                 ))}
-                {group.id === 'sarana-prasarana-group' && Object.entries(facilityColors).map(([key, color]) => (
+                {group.id === 'sarana-prasarana-group' && Object.entries(facilityIcons).map(([key, path]) => (
                   <div key={key} className="flex items-center space-x-3 mb-1">
-                    <div className="w-5 h-5 rounded-full flex items-center justify-center" style={{ backgroundColor: color, border: '2px solid #ffffff', boxShadow: '0 1px 3px rgba(0,0,0,0.3)' }}>
-                    </div>
+                    {/* Menggunakan tag <img> untuk menampilkan ikon PNG */}
+                    <img src={path} alt={key} className="w-6 h-6 object-contain" />
                     <span>{key}</span>
                   </div>
                 ))}
@@ -97,7 +102,7 @@ const LayerControl = ({ layers, onToggle }) => {
                 )}
                 {group.id === 'batas-admin-group' && (
                   <div className="flex items-center space-x-3 mb-1">
-                    <div className="w-5 h-5 rounded-sm" style={{ backgroundColor: '#ccc', border: '1px dashed #63C8FF', boxShadow: '0 1px 3px rgba(0,0,0,0.3)' }}></div>
+                    <div className="w-5" style={{ borderBottom: '2px dashed #FFDE63', width: '20px' }}></div>
                     <span>Batas Administrasi</span>
                   </div>
                 )}

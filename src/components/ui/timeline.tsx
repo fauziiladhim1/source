@@ -1,5 +1,5 @@
 "use client";
-import { useScroll, useTransform, motion } from "motion/react";
+import { useScroll, useTransform, motion } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
 
 export const Timeline = ({ data }) => {
@@ -28,32 +28,73 @@ export const Timeline = ({ data }) => {
       ref={containerRef}
     >
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
-        {data.map((item, index) => (
-          <div
-            key={index}
-            className="flex justify-start pt-10 md:pt-32 md:gap-8"
-          >
-            {/* Left dot and title (desktop) */}
-            <div className="sticky flex flex-col md:flex-row z-40 items-center top-40 self-start max-w-xs lg:max-w-sm md:w-full">
-              <div className="h-8 absolute left-3 md:left-3 w-8 rounded-full bg-white dark:bg-black flex items-center justify-center">
-                <div className="h-3 w-3 rounded-full bg-neutral-300 dark:bg-neutral-700 border border-neutral-300 dark:border-neutral-700 p-1" />
-              </div>
-              <h3 className="hidden md:block text-base md:pl-16 md:text-3xl font-bold text-neutral-500 dark:text-neutral-500">
-                {item.title}
-              </h3>
-            </div>
+        {data.map((item, index) => {
+          const sectionRef = useRef(null); 
+          const { scrollYProgress: sectionScrollYProgress } = useScroll({
+            target: sectionRef,
+            offset: ["start 60%", "end 50%"], 
+          });
 
-            {/* Content block */}
-            <div className="relative pl-20 pr-4 md:pl-4 w-full">
-              <h3 className="md:hidden block text-lg mb-3 text-left font-semibold text-neutral-500 dark:text-neutral-500">
-                {item.title}
-              </h3>
-              <div className="text-sm md:text-base text-neutral-700 dark:text-neutral-300">
-                {item.content}
+          // Transformasi warna untuk dot
+          const dotColor = useTransform(
+            sectionScrollYProgress,
+            [0, 1],
+            ["rgb(163 163 163)", "rgb(129 140 248)"] 
+          );
+
+          // Transformasi warna untuk teks
+          const textColor = useTransform(
+            sectionScrollYProgress,
+            [0, 1],
+            ["rgb(115 115 115)", "rgb(255 255 255)"] 
+          );
+          const darkTextColor = useTransform(
+            sectionScrollYProgress,
+            [0, 1],
+            ["rgb(115 115 115)", "rgb(0 0 0)"] 
+          );
+
+          return (
+            <div
+              key={index}
+              ref={sectionRef} 
+              className="flex justify-start pt-10 md:pt-32 md:gap-8"
+            >
+              {/* Left dot and title (desktop) */}
+              <div className="sticky flex flex-col md:flex-row z-40 items-center top-40 self-start max-w-xs lg:max-w-sm md:w-full">
+                <div className="h-8 absolute left-3 md:left-3 w-8 rounded-full bg-white dark:bg-black flex items-center justify-center">
+                  <motion.div
+                    style={{ backgroundColor: dotColor, borderColor: dotColor }}
+                    className="h-3 w-3 rounded-full border p-1"
+                  />
+                </div>
+                <motion.h3
+                  style={{
+                    color: textColor,
+                  }}
+                  className="hidden md:block text-base md:pl-16 md:text-3xl font-bold dark:text-neutral-500 text-neutral-500" // Kelas fallback
+                >
+                  {item.title}
+                </motion.h3>
+              </div>
+
+              {/* Content block */}
+              <div className="relative pl-20 pr-4 md:pl-4 w-full">
+                <motion.h3
+                  style={{
+                    color: textColor, 
+                  }}
+                  className="md:hidden block text-lg mb-3 text-left font-semibold dark:text-neutral-500 text-neutral-500"
+                >
+                  {item.title}
+                </motion.h3>
+                <div className="text-sm md:text-base text-neutral-700 dark:text-neutral-300">
+                  {item.content}
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          );
+        })}
 
         {/* Vertical timeline bar */}
         <div

@@ -15,25 +15,25 @@ const Geographical = () => {
     title: "Topografi",
     description:
       "Desa Sumberarum terletak di tepi Sungai Progo dan di kaki bukit Menoreh. Wilayah desa ini memiliki ketinggian sekitar 125 meter di atas permukaan air laut, memberikan pemandangan alam yang indah dan khas pedesaan.",
-    image: "/images/sumber.png",
+    image: "/images/topografi.jpg",
   },
   {
     title: "Iklim & Cuaca",
     description:
-      "Desa ini memiliki curah hujan rata-rata tahunan sebesar 2225 mm. Suhu rata-rata harian berkisar antara 17°C hingga 41°C.",
-    image: "/images/sumber.png",
+      "Dusun ini memiliki curah hujan rata-rata tahunan sebesar 2225 mm. Suhu rata-rata harian berkisar antara 17°C hingga 25°C.",
+    image: "/images/iklim.jpg",
   },
   {
     title: "Sumber Daya Air",
     description:
       "Keberadaan Sungai Progo yang mengalir di tepi desa menjadi sumber daya air yang signifikan dan sumber kehidupan bagi masyarakat sekitar.",
-    image: "/images/sumber.png",
+    image: "/images/sumberair.jpg",
   },
   {
     title: "Batas Wilayah",
     description:
       "Secara administratif, Dusun Sumber berbatasan dengan Dusun Boto di sebelah Utara, Dusun Dasekan di Barat Daya, Dusun Teluk di Selatan, dan Dusun Wareng di sebelah Barat Laut.",
-    image: "/images/sumber.png",
+    image: "/images/batas.png",
   },
 ];
 

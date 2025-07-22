@@ -46,16 +46,23 @@ const Documentation = () => {
   const [selectedCategory, setSelectedCategory] = useState("Semua");
 
   const allImages = [
-    { title: "Lokasi Survei A", description: "Dusun Sumber, 2023", img: "/images/sumber.png", category: "Survei Lapangan" },
-    { title: "Musyawarah Warga", description: "Acara perencanaan bersama warga desa.", img: "/images/sumber.png", category: "Kegiatan Desa" },
-    { title: "Anggota Tim 1", description: "Dokumentasi tim lapangan.", img: "/images/sumber.png", category: "Anggota Tim" },
-    { title: "Peta Olahan 1", description: "Hasil tata letak dari SIG (Sistem Informasi Geografis).", img: "/images/sumber.png", category: "Hasil Peta" },
-    { title: "Titik Cek Sungai", description: "Pengambilan sampel di area dekat sungai.", img: "/images/sumber.png", category: "Survei Lapangan" },
-    { title: "Anggota Tim 2", description: "Peserta pemetaan SIG.", img: "/images/sumber.png", category: "Anggota Tim" },
-    { title: "Hasil Tata Letak", description: "Contoh visualisasi menggunakan QGIS.", img: "/images/sumber.png", category: "Hasil Peta" },
+    { title: "Pengukuran Batas Dusun", description: "Pengukuran Titik 10 (Sumber-Boto).", img: "/images/survei1.jpg", category: "Survei dan Pengukuran" },
+    { title: "Pengukuran Batas Dusun", description: "Pengukuran Titik 10 (Sumber-Boto).", img: "/images/survei2.jpg", category: "Survei dan Pengukuran" },
+    { title: "Foto Kelompok B1", description: "Dokumentasi Anggota Kelompok B1.", img: "/images/tim1.jpg", category: "Anggota Tim" },
+    { title: "Foto Kelompok B1", description: "Dokumentasi Anggota Kelompok B1.", img: "/images/tim2.jpg", category: "Anggota Tim" },
+    { title: "Penerbangan Drone", description: "Bermain Bersama Anak-anak Sekolah.", img: "/images/anak.jpg", category: "Kegiatan Desa" },
+    { title: "Gotong Royong Warga", description: "Gotong Royong membersihkan Terpal.", img: "/images/gotongroyong.jpg", category: "Kegiatan Desa" },
+    { title: "Kerja Kelompok", description: "Diskusi dan Penyelesaian tiap Jobdesk.", img: "/images/tim3.jpg", category: "Anggota Tim" },
+    { title: "Last Day PKL 2", description: "Bersama Ibu Umi, Tuan Rumah Rempat Menginap.", img: "/images/tim4.jpg", category: "Anggota Tim" },
+    { title: "Pengukuran Batas Dusun", description: "Pengukuran Titik 12 (Sumber-Dasekan).", img: "/images/survei3.jpg", category: "Survei dan Pengukuran" },
+    { title: "Pengukuran Batas Dusun", description: "Pengukuran Titik 12 (Sumber-Dasekan).", img: "/images/survei4.jpg", category: "Survei dan Pengukuran" },
+    { title: "Peta Foto Udara", description: "Peta Batas Admin Citra Foto Udara.", img: "/images/PETA FU FIX.png", category: "Hasil Peta" },
+    { title: "Peta Penggunaan Lahan", description: "Peta Penggunaan Lahan di Dusun Sumber.", img: "/images/PETA PL.png", category: "Hasil Peta" },
+    { title: "Kerajinan Warga", description: "Miniatur Handmade oleh Warga Setempat.", img: "/images/kerajinan.jpg", category: "Kegiatan Desa" },
+    { title: "Peta Sarana dan Prasarana", description: "Peta Sarana-Prasarana dan Bangunan di Dusun Sumber.", img: "/images/PETA SARPRAS BANGUNAN.png", category: "Hasil Peta" },
   ];
 
-  const categories = ["Semua", "Survei Lapangan", "Kegiatan Desa", "Anggota Tim", "Hasil Peta"];
+  const categories = ["Semua", "Survei dan Pengukuran", "Kegiatan Desa", "Anggota Tim", "Hasil Peta"];
 
   const filteredImages =
     selectedCategory === "Semua"

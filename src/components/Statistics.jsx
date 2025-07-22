@@ -4,70 +4,58 @@ import React, { useEffect, useState, useRef } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { motion } from "framer-motion";
+import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
+import { Doughnut } from "react-chartjs-2";
 import {
-  Chart as ChartJS,
-  CategoryScale,
-  LinearScale,
-  PointElement,
-  LineElement,
-  Title,
-  Tooltip,
-  Legend,
-  ArcElement,
-} from "chart.js";
-import { Line, Doughnut } from "react-chartjs-2";
+  MoonIcon,
+  ClockIcon,
+  ChatBubbleBottomCenterTextIcon,
+  ScaleIcon,
+  SparklesIcon,
+  CubeTransparentIcon,
+  BuildingStorefrontIcon,
+  BriefcaseIcon,
+  ShieldCheckIcon,
+  ExclamationTriangleIcon,
+  UserIcon,
+} from "@heroicons/react/24/outline";
 
 // Chart.js Registrasi
-ChartJS.register(
-  CategoryScale,
-  LinearScale,
-  PointElement,
-  LineElement,
-  Title,
-  Tooltip,
-  Legend,
-  ArcElement
-);
+ChartJS.register(ArcElement, Tooltip, Legend);
 
-// CardStack Component
-const CardStack = ({ items, offset, scaleFactor }) => {
-  const CARD_OFFSET = offset || 10;
-  const SCALE_FACTOR = scaleFactor || 0.06;
+// CardStack Component (Tidak ada perubahan)
+const CardStack = ({ items }) => {
+  const CARD_OFFSET = 10;
+  const SCALE_FACTOR = 0.06;
   const [cards, setCards] = useState(items);
   const intervalRef = useRef(null);
 
   useEffect(() => {
-    return () => {
+    const stopFlipping = () => {
       if (intervalRef.current) clearInterval(intervalRef.current);
     };
-  }, []);
-
-  useEffect(() => {
+    stopFlipping();
     setCards(items);
     startFlipping();
-
-    return () => {
-      if (intervalRef.current) clearInterval(intervalRef.current);
-    };
+    return stopFlipping;
   }, [items]);
 
   const startFlipping = () => {
-    if (intervalRef.current) clearInterval(intervalRef.current);
     intervalRef.current = setInterval(() => {
       setCards((prev) => {
         const newArray = [...prev];
         newArray.unshift(newArray.pop());
         return newArray;
       });
-    }, 5000);
+    }, 6000);
   };
 
   return (
-    <div className="relative h-96 w-full md:h-[30rem] md:w-[40rem] flex items-center justify-center">
+    <div className="relative h-[30rem] w-full md:h-[32rem] md:w-[42rem] flex items-center justify-center">
       {cards.map((card, index) => (
         <motion.div
           key={card.id || index}
-          className="absolute dark:bg-black bg-white h-96 w-full md:h-[30rem] md:w-[40rem] rounded-3xl p-4 sm:p-6 shadow-xl border border-neutral-200 dark:border-white/[0.1] shadow-black/[0.1] dark:shadow-white/[0.05] flex flex-col justify-start"
+          className="absolute backdrop-blur-xl bg-black bg-opacity-70 h-[30rem] w-full md:h-[32rem] md:w-[42rem] rounded-3xl p-1 shadow-lg border border-white/10"
           style={{ transformOrigin: "top center" }}
           animate={{
             top: index * -CARD_OFFSET,
@@ -75,293 +63,174 @@ const CardStack = ({ items, offset, scaleFactor }) => {
             zIndex: cards.length - index,
           }}
         >
-          <div className="flex-grow overflow-y-auto" data-aos="fade-up">
-            {card.content}
+          {/* Menambahkan efek border gradien */}
+          <div className="w-full h-full p-6 sm:p-8 bg-slate-90 rounded-[22px] flex flex-col justify-center">
+             <div className="overflow-y-auto" data-aos="fade-up" data-aos-duration="600">
+               {card.content}
+             </div>
           </div>
-          {card.name && (
-            <div className="mt-4" data-aos="fade-up" data-aos-delay="300">
-              <p className="text-neutral-500 font-medium dark:text-white text-lg">
-                {card.name}
-              </p>
-              <p className="text-neutral-400 font-normal dark:text-neutral-200">
-                {card.designation}
-              </p>
-            </div>
-          )}
         </motion.div>
       ))}
     </div>
   );
 };
 
-// Chart Options
-const commonLineChartOptions = {
-  responsive: true,
-  maintainAspectRatio: false,
-  plugins: {
-    legend: {
-      position: "top",
-      labels: { color: "#E5E7EB" },
-    },
-    title: {
-      display: true,
-      font: { size: 18 },
-      color: "#FFFFFF",
-    },
-    tooltip: {
-      backgroundColor: "rgba(0, 0, 0, 0.8)",
-      titleColor: "#FFFFFF",
-      bodyColor: "#FFFFFF",
-    },
-  },
-  scales: {
-    x: {
-      ticks: { color: "#9CA3AF" },
-      grid: { color: "rgba(255, 255, 255, 0.1)" },
-    },
-    y: {
-      ticks: { color: "#9CA3AF" },
-      grid: { color: "rgba(255, 255, 255, 0.1)" },
-    },
-  },
-};
-
-// Data
-const LABELS_TAHUNAN = ["2021", "2022", "2023", "2024"];
-
+// Data Kependudukan
 const DATA_KEPENDUDUKAN = {
   labels: ["Laki-laki", "Perempuan"],
-  datasets: [
-    {
-      data: [45, 34],
-      backgroundColor: ["rgba(59, 130, 246, 0.8)", "rgba(236, 72, 153, 0.8)"],
-      borderColor: ["#3B82F6", "#EC4899"],
-      borderWidth: 1,
-      hoverOffset: 4,
-    },
-  ],
+  datasets: [{
+    data: [178, 156],
+    backgroundColor: ["rgba(59, 130, 246, 0.8)", "rgba(236, 72, 153, 0.8)"],
+    borderColor: "#0f172a",
+    borderWidth: 0,
+    hoverOffset: 8,
+  }],
 };
 
-const DATA_PERTANIAN = {
-  labels: LABELS_TAHUNAN,
-  datasets: [
-    {
-      label: "Padi (Ton)",
-      data: [520, 540, 530, 580],
-      borderColor: "#34D399",
-      backgroundColor: "rgba(16, 185, 129, 0.5)",
-      tension: 0.3,
-    },
-    {
-      label: "Jagung (Ton)",
-      data: [310, 300, 350, 370],
-      borderColor: "#FBBF24",
-      backgroundColor: "rgba(251, 191, 36, 0.5)",
-      tension: 0.3,
-    },
-  ],
-};
-
-const DATA_PERKEBUNAN = {
-  labels: LABELS_TAHUNAN,
-  datasets: [
-    {
-      label: "Pepaya (Ton)",
-      data: [80, 95, 90, 110],
-      borderColor: "#A78BFA",
-      backgroundColor: "rgba(167, 139, 250, 0.5)",
-      tension: 0.3,
-    },
-    {
-      label: "Tebu (Ton)",
-      data: [1200, 1250, 1180, 1300],
-      borderColor: "#F472B6",
-      backgroundColor: "rgba(244, 114, 182, 0.5)",
-      tension: 0.3,
-    },
-  ],
-};
-
-const DATA_PETERNAKAN = {
-  labels: LABELS_TAHUNAN,
-  datasets: [
-    {
-      label: "Sapi (Ekor)",
-      data: [450, 480, 520, 530],
-      borderColor: "#60A5FA",
-      backgroundColor: "rgba(96, 165, 250, 0.5)",
-      tension: 0.3,
-    },
-    {
-      label: "Ayam (Ekor)",
-      data: [15000, 16500, 16000, 17500],
-      borderColor: "#F87171",
-      backgroundColor: "rgba(248, 113, 113, 0.5)",
-      tension: 0.3,
-    },
-  ],
-};
-
-// Table Component
-const DataTable = ({ headers, data }) => (
-  <div className="overflow-x-auto mt-4" data-aos="fade-up">
-    <table className="w-full text-sm text-left text-gray-300">
-      <thead className="text-xs text-gray-100 uppercase bg-gray-700/50">
-        <tr>
-          {headers.map((header) => (
-            <th key={header} className="px-4 py-3">
-              {header}
-            </th>
-          ))}
-        </tr>
-      </thead>
-      <tbody>
-        {data.map((dataset, index) => (
-          <tr
-            key={index}
-            className="border-b border-gray-700 hover:bg-gray-800/50"
-          >
-            <th
-              scope="row"
-              className="px-4 py-3 font-medium text-white whitespace-nowrap"
-            >
-              {dataset.label}
-            </th>
-            {dataset.data.map((value, i) => (
-              <td key={i} className="px-4 py-3">
-                {value.toLocaleString("id-ID")}
-              </td>
-            ))}
-          </tr>
-        ))}
-      </tbody>
-    </table>
-  </div>
-);
-
-// Card Contents
 const PopulationContent = () => {
   const total = DATA_KEPENDUDUKAN.datasets[0].data.reduce((a, b) => a + b, 0);
   return (
     <div>
-      <h3 className="text-xl font-bold text-white text-center mb-4" data-aos="fade-up">
-        Statistik Kependudukan
-      </h3>
-      <div className="h-64 w-full flex items-center justify-center" data-aos="zoom-in">
-        <Doughnut
-          data={DATA_KEPENDUDUKAN}
-          options={{
-            responsive: true,
-            maintainAspectRatio: false,
-            cutout: "60%",
-            plugins: {
-              legend: {
-                position: "bottom",
-                labels: { color: "#E5E7EB" },
-              },
-              title: { display: false },
-            },
-          }}
-        />
-      </div>
-      <div className="mt-4 text-center" data-aos="fade-up">
-        <p className="text-white text-lg">
-          Total Populasi:{" "}
-          <span className="font-bold">{total.toLocaleString("id-ID")}</span>
-        </p>
+      <h3 className="text-2xl font-bold text-white text-center">Demografi Penduduk</h3>
+      <div className="mt-6 flex flex-col md:flex-row items-center justify-around gap-6">
+        <div className="relative h-48 w-48">
+          <Doughnut data={DATA_KEPENDUDUKAN} options={{ responsive: true, cutout: "70%", plugins: { legend: { display: false } } }} />
+          <div className="absolute inset-0 flex flex-col items-center justify-center text-white pointer-events-none">
+            <span className="text-4xl font-bold">{total}</span>
+            <span className="text-sm text-gray-400">Total Jiwa</span>
+          </div>
+        </div>
+        <div className="space-y-4 text-center md:text-left">
+          <div className="flex items-center gap-3 p-3 bg-white/5 rounded-lg">
+            <div className="p-2 bg-blue-500/20 rounded-full"><UserIcon className="h-6 w-6 text-blue-400" /></div>
+            <div><p className="text-2xl font-semibold text-white">178 <span className="text-lg font-normal">Laki-laki</span></p></div>
+          </div>
+          <div className="flex items-center gap-3 p-3 bg-white/5 rounded-lg">
+            <div className="p-2 bg-pink-500/20 rounded-full"><UserIcon className="h-6 w-6 text-pink-400" /></div>
+            <div><p className="text-2xl font-semibold text-white">156 <span className="text-lg font-normal">Perempuan</span></p></div>
+          </div>
+        </div>
       </div>
     </div>
   );
 };
 
-const AgricultureContent = () => (
-  <div>
-    <div className="h-64" data-aos="fade-up">
-      <Line
-        options={{
-          ...commonLineChartOptions,
-          plugins: {
-            ...commonLineChartOptions.plugins,
-            title: {
-              ...commonLineChartOptions.plugins.title,
-              text: "Produksi Hasil Pertanian (Ton)",
-            },
-          },
-        }}
-        data={DATA_PERTANIAN}
-      />
+// 2. Konten Budaya
+const InfoCard = ({ icon, title, children, delay }) => (
+    <div className="bg-white/[.03] p-4 rounded-xl h-full flex flex-col transition-all duration-300 hover:bg-white/[.06] hover:scale-105" data-aos="fade-up" data-aos-delay={delay}>
+        <div className="flex items-center gap-3 mb-2">
+            {icon}
+            <h4 className="font-bold text-white">{title}</h4>
+        </div>
+        <p className="text-gray-300 text-sm flex-grow">{children}</p>
     </div>
-    <DataTable headers={["Produk", ...LABELS_TAHUNAN]} data={DATA_PERTANIAN.datasets} />
-  </div>
 );
 
-const PlantationContent = () => (
-  <div>
-    <div className="h-64" data-aos="fade-up">
-      <Line
-        options={{
-          ...commonLineChartOptions,
-          plugins: {
-            ...commonLineChartOptions.plugins,
-            title: {
-              ...commonLineChartOptions.plugins.title,
-              text: "Produksi Hasil Perkebunan (Ton)",
-            },
-          },
-        }}
-        data={DATA_PERKEBUNAN}
-      />
+const CultureContent = () => (
+    <div>
+        <h3 className="text-2xl font-bold text-white text-center mb-6">Spiritualitas & Budaya Musyawarah</h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <InfoCard icon={<MoonIcon className="h-6 w-6 text-yellow-400" />} title="Hafalan Malam Jumat" delay="100">
+                Kegiatan rutin untuk memperdalam Al-Quran yang diadakan setiap malam Jumat bagi warga.
+            </InfoCard>
+            <InfoCard icon={<ClockIcon className="h-6 w-6 text-cyan-400" />} title="Sholat Tepat Waktu" delay="200">
+                Masyarakat memiliki kesadaran tinggi untuk menjaga dan melaksanakan sholat di awal waktu.
+            </InfoCard>
+            <InfoCard icon={<ChatBubbleBottomCenterTextIcon className="h-6 w-6 text-green-400" />} title="Musyawarah Kritis" delay="300">
+                Setiap pengambilan keputusan komunal didasarkan pada diskusi yang mendalam dan kritis.
+            </InfoCard>
+            <InfoCard icon={<ScaleIcon className="h-6 w-6 text-purple-400" />} title="Manajemen Modern" delay="400">
+                Walaupun kultur NU & Jawa kental, sistem kelembagaan menerapkan manajemen ala Muhammadiyah.
+            </InfoCard>
+        </div>
     </div>
-    <DataTable headers={["Produk", ...LABELS_TAHUNAN]} data={DATA_PERKEBUNAN.datasets} />
-  </div>
 );
 
-const LivestockContent = () => (
-  <div>
-    <div className="h-64" data-aos="fade-up">
-      <Line
-        options={{
-          ...commonLineChartOptions,
-          plugins: {
-            ...commonLineChartOptions.plugins,
-            title: {
-              ...commonLineChartOptions.plugins.title,
-              text: "Populasi Hasil Peternakan (Ekor)",
-            },
-          },
-        }}
-        data={DATA_PETERNAKAN}
-      />
+// 3. Konten Potensi Lokal
+const PotentialContent = () => (
+    <div>
+        <h3 className="text-2xl font-bold text-white text-center mb-6">Potensi Lokal & Visi ke Depan</h3>
+        <div className="flex flex-col md:flex-row gap-6">
+            <div className="w-full md:w-1/2 space-y-4" data-aos="fade-right">
+                <h4 className="font-semibold text-lg text-white border-b-2 border-green-500 pb-2">Potensi Unggulan</h4>
+                <div className="bg-white/5 p-4 rounded-lg h-full">
+                    <SparklesIcon className="h-6 w-6 text-green-400 mb-2"/>
+                    <h5 className="font-bold text-white">Produk Khas</h5>
+                    <div className="flex flex-wrap gap-2 mt-2">
+                        <span className="text-xs font-semibold text-yellow-200 bg-yellow-900/50 py-1 px-3 rounded-full">Gula Jawa</span>
+                        <span className="text-xs font-semibold text-amber-200 bg-amber-900/50 py-1 px-3 rounded-full">Pothil</span>
+                    </div>
+                </div>
+            </div>
+            <div className="w-full md:w-1/2 space-y-3" data-aos="fade-left">
+                <h4 className="font-semibold text-lg text-white border-b-2 border-blue-500 pb-2">Visi Pengembangan</h4>
+                <div className="bg-white/5 p-4 rounded-lg h-full">
+                <div className="flex items-start gap-3 mt-4">
+                    <CubeTransparentIcon className="h-6 w-6 text-blue-400 mt-1 flex-shrink-0"/>
+                    <p className="text-gray-300">Mendirikan <strong>museum seni tradisional</strong> (alat tangkap ikan kuno).</p>
+                </div>
+                 <div className="flex items-start gap-3">
+                    <BuildingStorefrontIcon className="h-6 w-6 text-blue-400 mt-1 flex-shrink-0"/>
+                    <p className="text-gray-300">Mengadakan <strong>bazar makanan tradisional</strong> bulanan di akhir pekan.</p>
+                </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <DataTable headers={["Ternak", ...LABELS_TAHUNAN]} data={DATA_PETERNAKAN.datasets} />
-  </div>
 );
 
-// Main Component
-// Main Component
+// 4. Konten Potret Sosial
+const StatBlock = ({ icon, value, label, delay }) => (
+    <div className="bg-white/[.03] p-4 rounded-xl text-center flex-1 transition-all duration-300 hover:bg-white/[.06] hover:scale-105" data-aos="fade-up" data-aos-delay={delay}>
+        <div className="w-12 h-12 bg-gray-700/50 rounded-full flex items-center justify-center mx-auto mb-3">
+            {icon}
+        </div>
+        <p className="text-2xl font-bold text-white">{value}</p>
+        <p className="text-sm text-gray-400">{label}</p>
+    </div>
+);
+
+const SocialContent = () => (
+    <div>
+        <h3 className="text-2xl font-bold text-white text-center mb-6">Potret Sosial Masyarakat</h3>
+        <div className="flex flex-col md:flex-row justify-center gap-4">
+             <StatBlock icon={<BriefcaseIcon className="h-6 w-6 text-teal-400"/>} value="~16 Orang" label="Aparatur Sipil Negara" delay="100"/>
+             <StatBlock icon={<ShieldCheckIcon className="h-6 w-6 text-indigo-400"/>} value='"Ga Neko"' label="Karakteristik Dusun" delay="200"/>
+             <StatBlock icon={<ExclamationTriangleIcon className="h-6 w-6 text-red-400"/>} value="Resisten" label="Tantangan Perubahan" delay="300"/>
+        </div>
+    </div>
+);
+
+// Komponen Utama
 const Statistics = () => {
   useEffect(() => {
-    AOS.init({ duration: 1000, once: true });
+    AOS.init({ duration: 800, once: true, mirror: false });
   }, []);
 
   const CARDS = [
-    { id: 1, content: <PopulationContent />, },
-    { id: 2, content: <AgricultureContent /> },
-    { id: 3, content: <PlantationContent /> },
-    { id: 4, content: <LivestockContent /> },
+    { id: 1, content: <PopulationContent /> },
+    { id: 2, content: <CultureContent /> },
+    { id: 3, content: <PotentialContent /> },
+    { id: 4, content: <SocialContent /> },
   ];
 
   return (
-    <section className="py-20 px-4 bg-black bg-opacity-50 min-h-screen flex flex-col items-center justify-center">
-      <h2
-        className="text-4xl font-bold text-center mb-10 text-white"
-        data-aos="fade-up"
-      >
-        <span className="text-gradient-2">Statistik </span>Sektoral
-      </h2>
+    <section className="relative py-20 px-4 min-h-screen flex flex-col items-center justify-center overflow-hidden">
+      <div className="absolute top-0 left-0 -z-10 h-full w-full "></div>
 
-      {/* Spacer antara judul dan Card */}
-      <div className="mt-12">
+      <div className="text-center z-10">
+        <h2
+          data-aos="fade-up"
+          className="text-3xl md:text-4xl font-bold mb-12 text-center text-white"
+        >
+          <span className="text-gradient-2">Informasi</span> Masyarakat
+        </h2>
+      </div>
+      
+      {/* PERBAIKAN UTAMA:
+        Wrapper di bawah ini memastikan CardStack berada di tengah secara horizontal.
+      */}
+      <div className="mt-16 w-full flex justify-center z-10">
         <CardStack items={CARDS} />
       </div>
     </section>

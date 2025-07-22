@@ -69,12 +69,6 @@ export default function App() {
         <Map isVisible={isMapVisible} toggleMap={toggleMap} />
       ) : (
         <main>
-          <img
-            className="absolute top-0 right-0 opacity-60 -z-10"
-            src="/gradient.png"
-            alt="Gradient-img"
-          />
-          <div className="h-0 w-[40rem] absolute top-[20%] right-[-5%] shadow-[0_0_1500px_35px_#91C8E4] -rotate-[30deg] -z-10"></div>
 
           <div id="hero">
             <Hero />
