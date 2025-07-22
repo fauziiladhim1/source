@@ -105,8 +105,8 @@ const Hero = () => {
                 playsInline
                 className="absolute inset-0 w-full h-full object-cover z-0"
             >
-                <source src="/videos/background_hero.mp4" type="video/mp4" />
-                <source src="/videos/background_hero.webm" type="video/webm" />
+                <source src="/videos/background.mp4" type="video/mp4" />
+                <source src="/videos/background.webm" type="video/webm" />
                 {/* Fallback for video not loading - a subtle gradient */}
                 <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800"></div>
             </video>
