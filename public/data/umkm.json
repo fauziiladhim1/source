@@ -1,1 +1,195 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","id":0,"geometry":{"type":"Point","coordinates":[110.1799159,-7.5569977899999996]},"properties":{"FID":0,"Title":"Kedai Bikin Candu","Date_Creat":"2025-07-16T17:58:44+07:00","Latitude":-7.5569977899999996,"Longitude":110.1799159,"Northing":9164591.0610000007,"Easting":409529.52179999999,"Descriptio":" ","Elevation":279.43671799999998}},{"type":"Feature","id":1,"geometry":{"type":"Point","coordinates":[110.17935300000001,-7.5570740980000002]},"properties":{"FID":1,"Title":"Warung Ibu Rodliyah","Date_Creat":"2025-07-16T18:04:56+07:00","Latitude":-7.5570740980000002,"Longitude":110.17935300000001,"Northing":9164582.5069999993,"Easting":409467.43489999999,"Descriptio":" ","Elevation":281.01622500000002}},{"type":"Feature","id":2,"geometry":{"type":"Point","coordinates":[110.1790819,-7.5564503030000001]},"properties":{"FID":2,"Title":"Warung Bu eM","Date_Creat":"2025-07-15T16:22:35+07:00","Latitude":-7.5564503030000001,"Longitude":110.1790819,"Northing":9164651.4179999996,"Easting":409437.39809999999,"Descriptio":" ","Elevation":281.22109}},{"type":"Feature","id":3,"geometry":{"type":"Point","coordinates":[110.1793716,-7.5585199430000003]},"properties":{"FID":3,"Title":"Warung Bapak Muhson Ridwan","Date_Creat":"2025-07-16T13:15:03+07:00","Latitude":-7.5585199430000003,"Longitude":110.1793716,"Northing":9164422.6579999998,"Easting":409469.79080000002,"Descriptio":" ","Elevation":276.77959700000002}},{"type":"Feature","id":4,"geometry":{"type":"Point","coordinates":[110.1785943,-7.5581118820000004]},"properties":{"FID":4,"Title":"Warung Ibu Maslahah","Date_Creat":"2025-07-16T12:50:28+07:00","Latitude":-7.5581118820000004,"Longitude":110.1785943,"Northing":9164467.6119999997,"Easting":409383.95390000002,"Descriptio":" ","Elevation":277.36718500000001}},{"type":"Feature","id":5,"geometry":{"type":"Point","coordinates":[110.1799462,-7.5584182530000001]},"properties":{"FID":5,"Title":"Warung Mbak Yanti","Date_Creat":"2025-07-17T09:10:51+07:00","Latitude":-7.5584182530000001,"Longitude":110.1799462,"Northing":9164434.0199999996,"Easting":409533.16519999999,"Descriptio":" ","Elevation":279.75347299999999}},{"type":"Feature","id":6,"geometry":{"type":"Point","coordinates":[110.1788904,-7.55826406]},"properties":{"FID":6,"Title":"Men Cellular","Date_Creat":"2025-07-16T12:24:48+07:00","Latitude":-7.55826406,"Longitude":110.1788904,"Northing":9164450.8479999993,"Easting":409416.65389999998,"Descriptio":" ","Elevation":276.75236599999999}},{"type":"Feature","id":7,"geometry":{"type":"Point","coordinates":[110.17947748694212,-7.5571110000444275]},"properties":{"FID":7,"Title":"Warung Ijo Pak Syakur","Date_Creat":" ","Latitude":0,"Longitude":0,"Northing":0,"Easting":0,"Descriptio":" ","Elevation":0}},{"type":"Feature","id":8,"geometry":{"type":"Point","coordinates":[110.18024284057465,-7.5581243530003084]},"properties":{"FID":8,"Title":"Ziada Leather Craft","Date_Creat":" ","Latitude":0,"Longitude":0,"Northing":0,"Easting":0,"Descriptio":" ","Elevation":0}},{"type":"Feature","id":9,"geometry":{"type":"Point","coordinates":[110.17768801329254,-7.5557553616228068]},"properties":{"FID":9,"Title":"Lawang Telu","Date_Creat":" ","Latitude":0,"Longitude":0,"Northing":0,"Easting":0,"Descriptio":" ","Elevation":0}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1799159, -7.5569977899999996]
+      },
+      "properties": {
+        "FID": 0,
+        "Title": "Kedai Bikin Candu",
+        "Date_Creat": "2025-07-16T17:58:44+07:00",
+        "Latitude": -7.5569977899999996,
+        "Longitude": 110.1799159,
+        "Northing": 9164591.0610000007,
+        "Easting": 409529.52179999999,
+        "Descriptio": " ",
+        "Elevation": 279.43671799999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.17935300000001, -7.5570740980000002]
+      },
+      "properties": {
+        "FID": 1,
+        "Title": "Warung Ibu Rodliyah",
+        "Date_Creat": "2025-07-16T18:04:56+07:00",
+        "Latitude": -7.5570740980000002,
+        "Longitude": 110.17935300000001,
+        "Northing": 9164582.5069999993,
+        "Easting": 409467.43489999999,
+        "Descriptio": " ",
+        "Elevation": 281.01622500000002
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1790819, -7.5564503030000001]
+      },
+      "properties": {
+        "FID": 2,
+        "Title": "Warung Bu eM",
+        "Date_Creat": "2025-07-15T16:22:35+07:00",
+        "Latitude": -7.5564503030000001,
+        "Longitude": 110.1790819,
+        "Northing": 9164651.4179999996,
+        "Easting": 409437.39809999999,
+        "Descriptio": " ",
+        "Elevation": 281.22109
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1793716, -7.5585199430000003]
+      },
+      "properties": {
+        "FID": 3,
+        "Title": "Warung Bapak Muhson Ridwan",
+        "Date_Creat": "2025-07-16T13:15:03+07:00",
+        "Latitude": -7.5585199430000003,
+        "Longitude": 110.1793716,
+        "Northing": 9164422.6579999998,
+        "Easting": 409469.79080000002,
+        "Descriptio": " ",
+        "Elevation": 276.77959700000002
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1785943, -7.5581118820000004]
+      },
+      "properties": {
+        "FID": 4,
+        "Title": "Warung Ibu Maslahah",
+        "Date_Creat": "2025-07-16T12:50:28+07:00",
+        "Latitude": -7.5581118820000004,
+        "Longitude": 110.1785943,
+        "Northing": 9164467.6119999997,
+        "Easting": 409383.95390000002,
+        "Descriptio": " ",
+        "Elevation": 277.36718500000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1799462, -7.5584182530000001]
+      },
+      "properties": {
+        "FID": 5,
+        "Title": "Warung Mbak Yanti",
+        "Date_Creat": "2025-07-17T09:10:51+07:00",
+        "Latitude": -7.5584182530000001,
+        "Longitude": 110.1799462,
+        "Northing": 9164434.0199999996,
+        "Easting": 409533.16519999999,
+        "Descriptio": " ",
+        "Elevation": 279.75347299999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1788904, -7.55826406]
+      },
+      "properties": {
+        "FID": 6,
+        "Title": "Men Cellular",
+        "Date_Creat": "2025-07-16T12:24:48+07:00",
+        "Latitude": -7.55826406,
+        "Longitude": 110.1788904,
+        "Northing": 9164450.8479999993,
+        "Easting": 409416.65389999998,
+        "Descriptio": " ",
+        "Elevation": 276.75236599999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.17947748694212, -7.5571110000444275]
+      },
+      "properties": {
+        "FID": 7,
+        "Title": "Warung Ijo Pak Syakur",
+        "Date_Creat": " ",
+        "Latitude": 0,
+        "Longitude": 0,
+        "Northing": 0,
+        "Easting": 0,
+        "Descriptio": " ",
+        "Elevation": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.18024284057465, -7.5581243530003084]
+      },
+      "properties": {
+        "FID": 8,
+        "Title": "Ziada Leather Craft",
+        "Date_Creat": " ",
+        "Latitude": 0,
+        "Longitude": 0,
+        "Northing": 0,
+        "Easting": 0,
+        "Descriptio": " ",
+        "Elevation": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.17768801329254, -7.5557553616228068]
+      },
+      "properties": {
+        "FID": 9,
+        "Title": "Lawang Telu",
+        "Date_Creat": " ",
+        "Latitude": 0,
+        "Longitude": 0,
+        "Northing": 0,
+        "Easting": 0,
+        "Descriptio": " ",
+        "Elevation": 0
+      }
+    }
+  ]
+}

@@ -1,28 +1,49 @@
-import { useEffect } from "react"; // Impor useEffect
-import AOS from "aos"; // Impor AOS
-import "aos/dist/aos.css"; // Impor CSS AOS
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 // Data untuk media sosial
 const socialMedia = [
   { id: 1, iconClass: "bx bxl-instagram", link: "https://instagram.com/sumber.berkana", colorClass: "text-blue-400" },
   { id: 2, iconClass: "bx bx-phone", link: "tel:+628985580408", colorClass: "text-blue-400" },
-  // Tambahkan tautan media sosial lainnya dengan kelas Boxicons yang sesuai
 ];
 
 const Footer = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1000, // Durasi animasi dalam milidetik
-      once: true, // Animasi hanya berjalan sekali
+      duration: 1000,
+      once: true,
     });
   }, []);
 
   return (
-    <footer className="w-full pt-0 pb-10 relative overflow-hidden" id="kontak">
+    <footer className="w-full pt-10 pb-10 relative overflow-hidden" id="kontak">
       <div className="flex flex-col items-center px-6 lg:px-20">
-        {/* Judul utama ajakan bertindak */}
+
+        {/* --- Bagian Video YouTube --- */}
+        <div
+          className="w-full max-w-4xl mx-auto mb-16"
+          data-aos="fade-up"
+        >
+          <div
+            className="relative rounded-xl overflow-hidden shadow-[0_10px_100px_-10px_rgba(0,119,255,0.4)]"
+            style={{ paddingBottom: "56.25%", height: 0 }}
+          >
+            <iframe 
+              className="absolute top-0 left-0 w-full h-full"
+              src="https://www.youtube.com/embed/Hrm-UpVNRTM?si=_O8tqArPKODQDRjR"
+              title="YouTube video player" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              referrerPolicy="strict-origin-when-cross-origin" 
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
+        {/* --- Akhir Bagian Video --- */}
+
         <h1 className="heading lg:max-w-[45vw] text-center text-white text-lg font-semibold" data-aos="fade-up">
-          Jelajahi lebih jauh keindahan dan potensi <span className="text-gradient text- font-bold">Dusun Sumber</span>?
+          Jelajahi lebih jauh keindahan dan potensi <span className="text-gradient font-bold">Dusun Sumber</span>?
         </h1>
         <p className="text-gray-400 md:mt-10 my-5 text-center max-w-lg mx-auto" data-aos="fade-up" data-aos-delay="200">
           Mari terhubung dan diskusikan bagaimana platform WebGIS kami dapat membantu Anda memahami Dusun Sumber lebih baik.

@@ -17,7 +17,7 @@ const BentoGridItem = ({ title, description, img, category, index, onClick }) =>
     <div
       data-aos="zoom-in-up"
       data-aos-delay={index * 100}
-      className="group relative overflow-hidden rounded-2xl border backdrop-blur-md transition-all duration-300 hover:shadow-2xl hover:scale-[1.02] cursor-pointer"
+      className="group relative overflow-hidden rounded-2xl border transition-all duration-300 hover:shadow-2xl hover:scale-[1.02] cursor-pointer backdrop-blur-xl bg-slate-900 bg-opacity-50"
       onClick={onClick}
     >
       <img

@@ -58,7 +58,7 @@ const Geographical = () => {
       <div className="container mx-auto px-6 md:px-12 max-w-6xl">
         <h2
           data-aos="fade-up"
-          className="text-3xl md:text-4xl font-bold mb-6 text-center text-white"
+          className="text-3xl md:text-4xl font-bold mt-20 mb-6 text-center text-white"
         >
           <span className="text-gradient-2">Kondisi</span> Geografis
         </h2>

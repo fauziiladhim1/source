@@ -1,1 +1,1946 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","id":0,"geometry":{"type":"Point","coordinates":[110.1782674,-7.5571932000000004]},"properties":{"FID":0,"nama_pemil":"Sri Chayati","_Koordinat":-7.5571932000000004,"_Koordin_1":110.1782674}},{"type":"Feature","id":1,"geometry":{"type":"Point","coordinates":[110.1782857,-7.5572017999999996]},"properties":{"FID":1,"nama_pemil":"Sri Chayati","_Koordinat":-7.5572017999999996,"_Koordin_1":110.1782857}},{"type":"Feature","id":2,"geometry":{"type":"Point","coordinates":[110.1789555,-7.5573797000000003]},"properties":{"FID":2,"nama_pemil":"Mursalin","_Koordinat":-7.5573797000000003,"_Koordin_1":110.1789555}},{"type":"Feature","id":3,"geometry":{"type":"Point","coordinates":[110.1792798,-7.5571242999999999]},"properties":{"FID":3,"nama_pemil":"Siti RoRodliah","_Koordinat":-7.5571242999999999,"_Koordin_1":110.1792798}},{"type":"Feature","id":4,"geometry":{"type":"Point","coordinates":[110.17917559999999,-7.5569237999999999]},"properties":{"FID":4,"nama_pemil":"Pak Syakir","_Koordinat":-7.5569237999999999,"_Koordin_1":110.17917559999999}},{"type":"Feature","id":5,"geometry":{"type":"Point","coordinates":[110.1791475,-7.5570224000000001]},"properties":{"FID":5,"nama_pemil":"Pak Syakir","_Koordinat":-7.5570224000000001,"_Koordin_1":110.1791475}},{"type":"Feature","id":6,"geometry":{"type":"Point","coordinates":[110.17975439999999,-7.5564403000000002]},"properties":{"FID":6,"nama_pemil":"-","_Koordinat":-7.5564403000000002,"_Koordin_1":110.17975439999999}},{"type":"Feature","id":7,"geometry":{"type":"Point","coordinates":[110.1797545,-7.5562398999999996]},"properties":{"FID":7,"nama_pemil":"Ibu Zumrotun","_Koordinat":-7.5562398999999996,"_Koordin_1":110.1797545}},{"type":"Feature","id":8,"geometry":{"type":"Point","coordinates":[110.1796659,-7.5560089000000001]},"properties":{"FID":8,"nama_pemil":"-","_Koordinat":-7.5560089000000001,"_Koordin_1":110.1796659}},{"type":"Feature","id":9,"geometry":{"type":"Point","coordinates":[110.17975629999999,-7.5558455999999996]},"properties":{"FID":9,"nama_pemil":"Pak Sutarno","_Koordinat":-7.5558455999999996,"_Koordin_1":110.17975629999999}},{"type":"Feature","id":10,"geometry":{"type":"Point","coordinates":[110.1797706,-7.5560217999999999]},"properties":{"FID":10,"nama_pemil":"Pak Joko","_Koordinat":-7.5560217999999999,"_Koordin_1":110.1797706}},{"type":"Feature","id":11,"geometry":{"type":"Point","coordinates":[110.1799773,-7.5556979999999996]},"properties":{"FID":11,"nama_pemil":"-","_Koordinat":-7.5556979999999996,"_Koordin_1":110.1799773}},{"type":"Feature","id":12,"geometry":{"type":"Point","coordinates":[110.1800416,-7.5561157999999997]},"properties":{"FID":12,"nama_pemil":"Pak Singgih","_Koordinat":-7.5561157999999997,"_Koordin_1":110.1800416}},{"type":"Feature","id":13,"geometry":{"type":"Point","coordinates":[110.1799597,-7.5560263000000001]},"properties":{"FID":13,"nama_pemil":"Pak Ahmad Marzuki","_Koordinat":-7.5560263000000001,"_Koordin_1":110.1799597}},{"type":"Feature","id":14,"geometry":{"type":"Point","coordinates":[110.1799583,-7.556165]},"properties":{"FID":14,"nama_pemil":"Pak Ahmad Marzuki","_Koordinat":-7.556165,"_Koordin_1":110.1799583}},{"type":"Feature","id":15,"geometry":{"type":"Point","coordinates":[110.17989009999999,-7.5570576000000003]},"properties":{"FID":15,"nama_pemil":"Pak Muhjamil","_Koordinat":-7.5570576000000003,"_Koordin_1":110.17989009999999}},{"type":"Feature","id":16,"geometry":{"type":"Point","coordinates":[110.1798793,-7.5570769999999996]},"properties":{"FID":16,"nama_pemil":"Pak Muhjamil","_Koordinat":-7.5570769999999996,"_Koordin_1":110.1798793}},{"type":"Feature","id":17,"geometry":{"type":"Point","coordinates":[110.179631,-7.5564961999999998]},"properties":{"FID":17,"nama_pemil":"Pak Solikin","_Koordinat":-7.5564961999999998,"_Koordin_1":110.179631}},{"type":"Feature","id":18,"geometry":{"type":"Point","coordinates":[110.17956390000001,-7.5566012999999996]},"properties":{"FID":18,"nama_pemil":"Pak Rambat","_Koordinat":-7.5566012999999996,"_Koordin_1":110.17956390000001}},{"type":"Feature","id":19,"geometry":{"type":"Point","coordinates":[110.17974150000001,-7.5564023999999996]},"properties":{"FID":19,"nama_pemil":"Marwiyah","_Koordinat":-7.5564023999999996,"_Koordin_1":110.17974150000001}},{"type":"Feature","id":20,"geometry":{"type":"Point","coordinates":[110.1805516,-7.5571937]},"properties":{"FID":20,"nama_pemil":"Pak Muhammad Nurrahman","_Koordinat":-7.5571937,"_Koordin_1":110.1805516}},{"type":"Feature","id":21,"geometry":{"type":"Point","coordinates":[110.1805269,-7.5572435999999996]},"properties":{"FID":21,"nama_pemil":"Pak Zuhdi","_Koordinat":-7.5572435999999996,"_Koordin_1":110.1805269}},{"type":"Feature","id":22,"geometry":{"type":"Point","coordinates":[110.1804946,-7.5571589000000001]},"properties":{"FID":22,"nama_pemil":"Pak Sugito","_Koordinat":-7.5571589000000001,"_Koordin_1":110.1804946}},{"type":"Feature","id":23,"geometry":{"type":"Point","coordinates":[110.1803702,-7.5569411999999998]},"properties":{"FID":23,"nama_pemil":"Pak Muhajir","_Koordinat":-7.5569411999999998,"_Koordin_1":110.1803702}},{"type":"Feature","id":24,"geometry":{"type":"Point","coordinates":[110.18051730000001,-7.5569853]},"properties":{"FID":24,"nama_pemil":"-","_Koordinat":-7.5569853,"_Koordin_1":110.18051730000001}},{"type":"Feature","id":25,"geometry":{"type":"Point","coordinates":[110.18017879999999,-7.5571178999999997]},"properties":{"FID":25,"nama_pemil":"Alm. Pak Muh. Salim","_Koordinat":-7.5571178999999997,"_Koordin_1":110.18017879999999}},{"type":"Feature","id":26,"geometry":{"type":"Point","coordinates":[110.1802782,-7.5570975000000002]},"properties":{"FID":26,"nama_pemil":"Pak Rohyati","_Koordinat":-7.5570975000000002,"_Koordin_1":110.1802782}},{"type":"Feature","id":27,"geometry":{"type":"Point","coordinates":[110.1797837,-7.5568650999999996]},"properties":{"FID":27,"nama_pemil":"Mbah Sudir","_Koordinat":-7.5568650999999996,"_Koordin_1":110.1797837}},{"type":"Feature","id":28,"geometry":{"type":"Point","coordinates":[110.1826868,-7.5572961000000003]},"properties":{"FID":28,"nama_pemil":"-","_Koordinat":-7.5572961000000003,"_Koordin_1":110.1826868}},{"type":"Feature","id":29,"geometry":{"type":"Point","coordinates":[110.1827212,-7.5573269999999999]},"properties":{"FID":29,"nama_pemil":"-","_Koordinat":-7.5573269999999999,"_Koordin_1":110.1827212}},{"type":"Feature","id":30,"geometry":{"type":"Point","coordinates":[110.1829245,-7.5572439999999999]},"properties":{"FID":30,"nama_pemil":"-","_Koordinat":-7.5572439999999999,"_Koordin_1":110.1829245}},{"type":"Feature","id":31,"geometry":{"type":"Point","coordinates":[110.1829405,-7.5572393]},"properties":{"FID":31,"nama_pemil":"-","_Koordinat":-7.5572393,"_Koordin_1":110.1829405}},{"type":"Feature","id":32,"geometry":{"type":"Point","coordinates":[110.1829398,-7.5572246999999999]},"properties":{"FID":32,"nama_pemil":"-","_Koordinat":-7.5572246999999999,"_Koordin_1":110.1829398}},{"type":"Feature","id":33,"geometry":{"type":"Point","coordinates":[110.18240470000001,-7.5577139000000004]},"properties":{"FID":33,"nama_pemil":"-","_Koordinat":-7.5577139000000004,"_Koordin_1":110.18240470000001}},{"type":"Feature","id":34,"geometry":{"type":"Point","coordinates":[110.1817992,-7.5577987000000002]},"properties":{"FID":34,"nama_pemil":"-","_Koordinat":-7.5577987000000002,"_Koordin_1":110.1817992}},{"type":"Feature","id":35,"geometry":{"type":"Point","coordinates":[110.17953060000001,-7.5571541]},"properties":{"FID":35,"nama_pemil":"Pak Syakur","_Koordinat":-7.5571541,"_Koordin_1":110.17953060000001}},{"type":"Feature","id":36,"geometry":{"type":"Point","coordinates":[110.18080670000001,-7.5584487999999999]},"properties":{"FID":36,"nama_pemil":"Pak Muhammad Ali Subhan","_Koordinat":-7.5584487999999999,"_Koordin_1":110.18080670000001}},{"type":"Feature","id":37,"geometry":{"type":"Point","coordinates":[110.1808521,-7.5582627999999996]},"properties":{"FID":37,"nama_pemil":"Pak Muhammad Ali Subhan","_Koordinat":-7.5582627999999996,"_Koordin_1":110.1808521}},{"type":"Feature","id":38,"geometry":{"type":"Point","coordinates":[110.1808594,-7.5580474000000004]},"properties":{"FID":38,"nama_pemil":"Pak Kalam","_Koordinat":-7.5580474000000004,"_Koordin_1":110.1808594}},{"type":"Feature","id":39,"geometry":{"type":"Point","coordinates":[110.18025179999999,-7.5581768]},"properties":{"FID":39,"nama_pemil":"Pak Istadzi","_Koordinat":-7.5581768,"_Koordin_1":110.18025179999999}},{"type":"Feature","id":40,"geometry":{"type":"Point","coordinates":[110.18031860000001,-7.5567514999999998]},"properties":{"FID":40,"nama_pemil":"Pak Hermanto","_Koordinat":-7.5567514999999998,"_Koordin_1":110.18031860000001}},{"type":"Feature","id":41,"geometry":{"type":"Point","coordinates":[110.1803314,-7.5567704999999998]},"properties":{"FID":41,"nama_pemil":"Pak Hermanto","_Koordinat":-7.5567704999999998,"_Koordin_1":110.1803314}},{"type":"Feature","id":42,"geometry":{"type":"Point","coordinates":[110.1803517,-7.5567285999999996]},"properties":{"FID":42,"nama_pemil":"Pak Slamet","_Koordinat":-7.5567285999999996,"_Koordin_1":110.1803517}},{"type":"Feature","id":43,"geometry":{"type":"Point","coordinates":[110.18024320000001,-7.5565778000000003]},"properties":{"FID":43,"nama_pemil":"Bu Nurkamilah","_Koordinat":-7.5565778000000003,"_Koordin_1":110.18024320000001}},{"type":"Feature","id":44,"geometry":{"type":"Point","coordinates":[110.18028750000001,-7.5566832000000002]},"properties":{"FID":44,"nama_pemil":"Bu Rusiyah","_Koordinat":-7.5566832000000002,"_Koordin_1":110.18028750000001}},{"type":"Feature","id":45,"geometry":{"type":"Point","coordinates":[110.18026070000001,-7.5564751000000001]},"properties":{"FID":45,"nama_pemil":"Bu Juwarni","_Koordinat":-7.5564751000000001,"_Koordin_1":110.18026070000001}},{"type":"Feature","id":46,"geometry":{"type":"Point","coordinates":[110.18028390000001,-7.5564821000000002]},"properties":{"FID":46,"nama_pemil":"Bu Juwarni","_Koordinat":-7.5564821000000002,"_Koordin_1":110.18028390000001}},{"type":"Feature","id":47,"geometry":{"type":"Point","coordinates":[110.18046219999999,-7.5569376000000004]},"properties":{"FID":47,"nama_pemil":"Pak Muhajir","_Koordinat":-7.5569376000000004,"_Koordin_1":110.18046219999999}},{"type":"Feature","id":48,"geometry":{"type":"Point","coordinates":[110.1805964,-7.5566141]},"properties":{"FID":48,"nama_pemil":"-","_Koordinat":-7.5566141,"_Koordin_1":110.1805964}},{"type":"Feature","id":49,"geometry":{"type":"Point","coordinates":[110.1799836,-7.5565781000000003]},"properties":{"FID":49,"nama_pemil":"Imronah","_Koordinat":-7.5565781000000003,"_Koordin_1":110.1799836}},{"type":"Feature","id":50,"geometry":{"type":"Point","coordinates":[110.1798424,-7.5565201999999996]},"properties":{"FID":50,"nama_pemil":"Pak Slamet Uyono","_Koordinat":-7.5565201999999996,"_Koordin_1":110.1798424}},{"type":"Feature","id":51,"geometry":{"type":"Point","coordinates":[110.1784878,-7.5562329000000004]},"properties":{"FID":51,"nama_pemil":"Pak Musthofa","_Koordinat":-7.5562329000000004,"_Koordin_1":110.1784878}},{"type":"Feature","id":52,"geometry":{"type":"Point","coordinates":[110.17876339999999,-7.5562892000000002]},"properties":{"FID":52,"nama_pemil":"Ahmad Marzuki","_Koordinat":-7.5562892000000002,"_Koordin_1":110.17876339999999}},{"type":"Feature","id":53,"geometry":{"type":"Point","coordinates":[110.178827,-7.5560103999999999]},"properties":{"FID":53,"nama_pemil":"Ahmad Marzuki","_Koordinat":-7.5560103999999999,"_Koordin_1":110.178827}},{"type":"Feature","id":54,"geometry":{"type":"Point","coordinates":[110.37446009999999,-7.7747956]},"properties":{"FID":54,"nama_pemil":"Bghjm","_Koordinat":-7.7747956,"_Koordin_1":110.37446009999999}},{"type":"Feature","id":55,"geometry":{"type":"Point","coordinates":[110.1780512,-7.5559548999999997]},"properties":{"FID":55,"nama_pemil":"Taufik Hery Purnomo","_Koordinat":-7.5559548999999997,"_Koordin_1":110.1780512}},{"type":"Feature","id":56,"geometry":{"type":"Point","coordinates":[110.17887930000001,-7.5563117000000002]},"properties":{"FID":56,"nama_pemil":"Fakihudin","_Koordinat":-7.5563117000000002,"_Koordin_1":110.17887930000001}},{"type":"Feature","id":57,"geometry":{"type":"Point","coordinates":[110.1790967,-7.5562259000000003]},"properties":{"FID":57,"nama_pemil":"Hanafi","_Koordinat":-7.5562259000000003,"_Koordin_1":110.1790967}},{"type":"Feature","id":58,"geometry":{"type":"Point","coordinates":[110.179084,-7.5564622999999997]},"properties":{"FID":58,"nama_pemil":"Hanafi","_Koordinat":-7.5564622999999997,"_Koordin_1":110.179084}},{"type":"Feature","id":59,"geometry":{"type":"Point","coordinates":[110.1790637,-7.5564155]},"properties":{"FID":59,"nama_pemil":"Haidar","_Koordinat":-7.5564155,"_Koordin_1":110.1790637}},{"type":"Feature","id":60,"geometry":{"type":"Point","coordinates":[110.1787046,-7.5564492999999997]},"properties":{"FID":60,"nama_pemil":"Dwi Agus Jatmiko","_Koordinat":-7.5564492999999997,"_Koordin_1":110.1787046}},{"type":"Feature","id":61,"geometry":{"type":"Point","coordinates":[110.1785533,-7.5565768999999996]},"properties":{"FID":61,"nama_pemil":"Bapak Muslich","_Koordinat":-7.5565768999999996,"_Koordin_1":110.1785533}},{"type":"Feature","id":62,"geometry":{"type":"Point","coordinates":[110.17849889999999,-7.5566806]},"properties":{"FID":62,"nama_pemil":"-","_Koordinat":-7.5566806,"_Koordin_1":110.17849889999999}},{"type":"Feature","id":63,"geometry":{"type":"Point","coordinates":[110.1783061,-7.5566876000000001]},"properties":{"FID":63,"nama_pemil":"Bapak Zainal Musafak","_Koordinat":-7.5566876000000001,"_Koordin_1":110.1783061}},{"type":"Feature","id":64,"geometry":{"type":"Point","coordinates":[110.17808460000001,-7.5559114999999997]},"properties":{"FID":64,"nama_pemil":"Taufik Hery Purnomo","_Koordinat":-7.5559114999999997,"_Koordin_1":110.17808460000001}},{"type":"Feature","id":65,"geometry":{"type":"Point","coordinates":[110.1780522,-7.5565382000000003]},"properties":{"FID":65,"nama_pemil":"Bapak Ircham Bayu Pramudya","_Koordinat":-7.5565382000000003,"_Koordin_1":110.1780522}},{"type":"Feature","id":66,"geometry":{"type":"Point","coordinates":[110.17806830000001,-7.5565065999999996]},"properties":{"FID":66,"nama_pemil":"-","_Koordinat":-7.5565065999999996,"_Koordin_1":110.17806830000001}},{"type":"Feature","id":67,"geometry":{"type":"Point","coordinates":[110.1778872,-7.5574509000000001]},"properties":{"FID":67,"nama_pemil":"Muhsalimi","_Koordinat":-7.5574509000000001,"_Koordin_1":110.1778872}},{"type":"Feature","id":68,"geometry":{"type":"Point","coordinates":[110.1774132,-7.5564331999999999]},"properties":{"FID":68,"nama_pemil":"Muhsalimi","_Koordinat":-7.5564331999999999,"_Koordin_1":110.1774132}},{"type":"Feature","id":69,"geometry":{"type":"Point","coordinates":[110.1783635,-7.5571523999999997]},"properties":{"FID":69,"nama_pemil":"Bapak Muhammad Jabir Fahri","_Koordinat":-7.5571523999999997,"_Koordin_1":110.1783635}},{"type":"Feature","id":70,"geometry":{"type":"Point","coordinates":[110.17847620000001,-7.5571636]},"properties":{"FID":70,"nama_pemil":"Samalun","_Koordinat":-7.5571636,"_Koordin_1":110.17847620000001}},{"type":"Feature","id":71,"geometry":{"type":"Point","coordinates":[110.1786029,-7.5574785999999996]},"properties":{"FID":71,"nama_pemil":"Bapak Solikin","_Koordinat":-7.5574785999999996,"_Koordin_1":110.1786029}},{"type":"Feature","id":72,"geometry":{"type":"Point","coordinates":[110.1791355,-7.5573386999999999]},"properties":{"FID":72,"nama_pemil":"Fatihin","_Koordinat":-7.5573386999999999,"_Koordin_1":110.1791355}},{"type":"Feature","id":73,"geometry":{"type":"Point","coordinates":[110.1791412,-7.5575329]},"properties":{"FID":73,"nama_pemil":"Mahbub Salim","_Koordinat":-7.5575329,"_Koordin_1":110.1791412}},{"type":"Feature","id":74,"geometry":{"type":"Point","coordinates":[110.1795023,-7.5574120999999996]},"properties":{"FID":74,"nama_pemil":"Khasanah","_Koordinat":-7.5574120999999996,"_Koordin_1":110.1795023}},{"type":"Feature","id":75,"geometry":{"type":"Point","coordinates":[110.17881180000001,-7.5581908999999996]},"properties":{"FID":75,"nama_pemil":"Bu Maslahah","_Koordinat":-7.5581908999999996,"_Koordin_1":110.17881180000001}},{"type":"Feature","id":76,"geometry":{"type":"Point","coordinates":[110.1788631,-7.5584078999999997]},"properties":{"FID":76,"nama_pemil":"Muhammad Lukman Hakim","_Koordinat":-7.5584078999999997,"_Koordin_1":110.1788631}},{"type":"Feature","id":77,"geometry":{"type":"Point","coordinates":[110.17887229999999,-7.5582221000000001]},"properties":{"FID":77,"nama_pemil":"Muhammad Lukman Hakim","_Koordinat":-7.5582221000000001,"_Koordin_1":110.17887229999999}},{"type":"Feature","id":78,"geometry":{"type":"Point","coordinates":[110.1789191,-7.5581887999999999]},"properties":{"FID":78,"nama_pemil":"Muhammad Lukman Hakim","_Koordinat":-7.5581887999999999,"_Koordin_1":110.1789191}},{"type":"Feature","id":79,"geometry":{"type":"Point","coordinates":[110.178893,-7.5582136999999996]},"properties":{"FID":79,"nama_pemil":"Bapak Mubahin","_Koordinat":-7.5582136999999996,"_Koordin_1":110.178893}},{"type":"Feature","id":80,"geometry":{"type":"Point","coordinates":[110.1791357,-7.5581123999999997]},"properties":{"FID":80,"nama_pemil":"Ahmad Azizul Rahman","_Koordinat":-7.5581123999999997,"_Koordin_1":110.1791357}},{"type":"Feature","id":81,"geometry":{"type":"Point","coordinates":[110.1790233,-7.5582981]},"properties":{"FID":81,"nama_pemil":"Ahmad Taufik","_Koordinat":-7.5582981,"_Koordin_1":110.1790233}},{"type":"Feature","id":82,"geometry":{"type":"Point","coordinates":[110.17918709999999,-7.5582837999999999]},"properties":{"FID":82,"nama_pemil":"Ahmad","_Koordinat":-7.5582837999999999,"_Koordin_1":110.17918709999999}},{"type":"Feature","id":83,"geometry":{"type":"Point","coordinates":[110.178603,-7.5581766999999997]},"properties":{"FID":83,"nama_pemil":"Bu Maslahah","_Koordinat":-7.5581766999999997,"_Koordin_1":110.178603}},{"type":"Feature","id":84,"geometry":{"type":"Point","coordinates":[110.1787051,-7.5582301999999997]},"properties":{"FID":84,"nama_pemil":"Bu Maslahah","_Koordinat":-7.5582301999999997,"_Koordin_1":110.1787051}},{"type":"Feature","id":85,"geometry":{"type":"Point","coordinates":[110.1784849,-7.5581373999999997]},"properties":{"FID":85,"nama_pemil":"Bapak Riyanto","_Koordinat":-7.5581373999999997,"_Koordin_1":110.1784849}},{"type":"Feature","id":86,"geometry":{"type":"Point","coordinates":[110.178361,-7.5580195999999997]},"properties":{"FID":86,"nama_pemil":"Bapak Muhson","_Koordinat":-7.5580195999999997,"_Koordin_1":110.178361}},{"type":"Feature","id":87,"geometry":{"type":"Point","coordinates":[110.178246,-7.5577398999999996]},"properties":{"FID":87,"nama_pemil":"Irmadi","_Koordinat":-7.5577398999999996,"_Koordin_1":110.178246}},{"type":"Feature","id":88,"geometry":{"type":"Point","coordinates":[110.1791607,-7.5584923000000002]},"properties":{"FID":88,"nama_pemil":"Ibu Nasikah","_Koordinat":-7.5584923000000002,"_Koordin_1":110.1791607}},{"type":"Feature","id":89,"geometry":{"type":"Point","coordinates":[110.179265,-7.5586229999999999]},"properties":{"FID":89,"nama_pemil":"Bapak Muhson Ridwan","_Koordinat":-7.5586229999999999,"_Koordin_1":110.179265}},{"type":"Feature","id":90,"geometry":{"type":"Point","coordinates":[110.17937790000001,-7.5585915000000004]},"properties":{"FID":90,"nama_pemil":"Bapak Muhson Ridwan","_Koordinat":-7.5585915000000004,"_Koordin_1":110.17937790000001}},{"type":"Feature","id":91,"geometry":{"type":"Point","coordinates":[110.1795717,-7.5582322]},"properties":{"FID":91,"nama_pemil":"-","_Koordinat":-7.5582322,"_Koordin_1":110.1795717}},{"type":"Feature","id":92,"geometry":{"type":"Point","coordinates":[110.1797107,-7.5583184000000001]},"properties":{"FID":92,"nama_pemil":"Ibu Rina","_Koordinat":-7.5583184000000001,"_Koordin_1":110.1797107}},{"type":"Feature","id":93,"geometry":{"type":"Point","coordinates":[110.17976419999999,-7.5582450000000003]},"properties":{"FID":93,"nama_pemil":"Bapak Nur Muhammad","_Koordinat":-7.5582450000000003,"_Koordin_1":110.17976419999999}},{"type":"Feature","id":94,"geometry":{"type":"Point","coordinates":[110.1795499,-7.5582019000000003]},"properties":{"FID":94,"nama_pemil":"Bapak","_Koordinat":-7.5582019000000003,"_Koordin_1":110.1795499}},{"type":"Feature","id":95,"geometry":{"type":"Point","coordinates":[110.1796567,-7.5588389999999999]},"properties":{"FID":95,"nama_pemil":"MI WALISONGO","_Koordinat":-7.5588389999999999,"_Koordin_1":110.1796567}},{"type":"Feature","id":96,"geometry":{"type":"Point","coordinates":[110.1798823,-7.5589355999999999]},"properties":{"FID":96,"nama_pemil":"MI WALISONGO","_Koordinat":-7.5589355999999999,"_Koordin_1":110.1798823}},{"type":"Feature","id":97,"geometry":{"type":"Point","coordinates":[110.1799084,-7.5588923000000001]},"properties":{"FID":97,"nama_pemil":"Masjid Al Ikhlas","_Koordinat":-7.5588923000000001,"_Koordin_1":110.1799084}},{"type":"Feature","id":98,"geometry":{"type":"Point","coordinates":[110.1798876,-7.5590437000000001]},"properties":{"FID":98,"nama_pemil":"Masjid Al Ikhlas","_Koordinat":-7.5590437000000001,"_Koordin_1":110.1798876}},{"type":"Feature","id":99,"geometry":{"type":"Point","coordinates":[110.1799863,-7.5571317000000002]},"properties":{"FID":99,"nama_pemil":"Ibu Nanten","_Koordinat":-7.5571317000000002,"_Koordin_1":110.1799863}},{"type":"Feature","id":100,"geometry":{"type":"Point","coordinates":[110.18002869999999,-7.5569870000000003]},"properties":{"FID":100,"nama_pemil":"Ibu Nanten","_Koordinat":-7.5569870000000003,"_Koordin_1":110.18002869999999}},{"type":"Feature","id":101,"geometry":{"type":"Point","coordinates":[110.1785862,-7.5568109000000003]},"properties":{"FID":101,"nama_pemil":"Bapak Tamiyis","_Koordinat":-7.5568109000000003,"_Koordin_1":110.1785862}},{"type":"Feature","id":102,"geometry":{"type":"Point","coordinates":[110.1787717,-7.5573176000000002]},"properties":{"FID":102,"nama_pemil":"Mursalin","_Koordinat":-7.5573176000000002,"_Koordin_1":110.1787717}},{"type":"Feature","id":103,"geometry":{"type":"Point","coordinates":[110.1804812,-7.5591780000000002]},"properties":{"FID":103,"nama_pemil":"Fatkhurohman","_Koordinat":-7.5591780000000002,"_Koordin_1":110.1804812}},{"type":"Feature","id":104,"geometry":{"type":"Point","coordinates":[110.1803295,-7.5586558000000004]},"properties":{"FID":104,"nama_pemil":"Ahmad Syafi'i","_Koordinat":-7.5586558000000004,"_Koordin_1":110.1803295}},{"type":"Feature","id":105,"geometry":{"type":"Point","coordinates":[110.1805583,-7.5586881999999997]},"properties":{"FID":105,"nama_pemil":"-","_Koordinat":-7.5586881999999997,"_Koordin_1":110.1805583}},{"type":"Feature","id":106,"geometry":{"type":"Point","coordinates":[110.1813241,-7.5593288999999997]},"properties":{"FID":106,"nama_pemil":"Ibu Juminah","_Koordinat":-7.5593288999999997,"_Koordin_1":110.1813241}},{"type":"Feature","id":107,"geometry":{"type":"Point","coordinates":[110.1811403,-7.559259]},"properties":{"FID":107,"nama_pemil":"Bapak Didik","_Koordinat":-7.559259,"_Koordin_1":110.1811403}},{"type":"Feature","id":108,"geometry":{"type":"Point","coordinates":[110.18131219999999,-7.5593820999999997]},"properties":{"FID":108,"nama_pemil":"Bapak Robert","_Koordinat":-7.5593820999999997,"_Koordin_1":110.18131219999999}},{"type":"Feature","id":109,"geometry":{"type":"Point","coordinates":[110.1824331,-7.5608196999999997]},"properties":{"FID":109,"nama_pemil":"-","_Koordinat":-7.5608196999999997,"_Koordin_1":110.1824331}},{"type":"Feature","id":110,"geometry":{"type":"Point","coordinates":[110.1825817,-7.5613146000000002]},"properties":{"FID":110,"nama_pemil":"-","_Koordinat":-7.5613146000000002,"_Koordin_1":110.1825817}},{"type":"Feature","id":111,"geometry":{"type":"Point","coordinates":[110.1825456,-7.5613415000000002]},"properties":{"FID":111,"nama_pemil":"-","_Koordinat":-7.5613415000000002,"_Koordin_1":110.1825456}},{"type":"Feature","id":112,"geometry":{"type":"Point","coordinates":[110.1824696,-7.5609184000000003]},"properties":{"FID":112,"nama_pemil":"-","_Koordinat":-7.5609184000000003,"_Koordin_1":110.1824696}},{"type":"Feature","id":113,"geometry":{"type":"Point","coordinates":[110.18001529999999,-7.5572052999999997]},"properties":{"FID":113,"nama_pemil":"Bapak Ahmad Fatoni","_Koordinat":-7.5572052999999997,"_Koordin_1":110.18001529999999}},{"type":"Feature","id":114,"geometry":{"type":"Point","coordinates":[110.180222,-7.5574234999999996]},"properties":{"FID":114,"nama_pemil":"Bapak Marfatoni","_Koordinat":-7.5574234999999996,"_Koordin_1":110.180222}},{"type":"Feature","id":115,"geometry":{"type":"Point","coordinates":[110.1798854,-7.5571000000000002]},"properties":{"FID":115,"nama_pemil":"Bapak Ahmad Fatoni","_Koordinat":-7.5571000000000002,"_Koordin_1":110.1798854}},{"type":"Feature","id":116,"geometry":{"type":"Point","coordinates":[110.1800925,-7.5571967999999998]},"properties":{"FID":116,"nama_pemil":"Ahmad Fatoni","_Koordinat":-7.5571967999999998,"_Koordin_1":110.1800925}},{"type":"Feature","id":117,"geometry":{"type":"Point","coordinates":[110.180076,-7.5570035999999998]},"properties":{"FID":117,"nama_pemil":"Ahmad Fatoni","_Koordinat":-7.5570035999999998,"_Koordin_1":110.180076}},{"type":"Feature","id":118,"geometry":{"type":"Point","coordinates":[110.1798455,-7.5573145000000004]},"properties":{"FID":118,"nama_pemil":"Bapak Safi'i","_Koordinat":-7.5573145000000004,"_Koordin_1":110.1798455}},{"type":"Feature","id":119,"geometry":{"type":"Point","coordinates":[110.18005890000001,-7.5578697999999997]},"properties":{"FID":119,"nama_pemil":"Muhtarom","_Koordinat":-7.5578697999999997,"_Koordin_1":110.18005890000001}},{"type":"Feature","id":120,"geometry":{"type":"Point","coordinates":[110.18028219999999,-7.5574722000000003]},"properties":{"FID":120,"nama_pemil":"Bapak Kabul","_Koordinat":-7.5574722000000003,"_Koordin_1":110.18028219999999}},{"type":"Feature","id":121,"geometry":{"type":"Point","coordinates":[110.1804966,-7.5578878999999999]},"properties":{"FID":121,"nama_pemil":"Bapak Kabul","_Koordinat":-7.5578878999999999,"_Koordin_1":110.1804966}},{"type":"Feature","id":122,"geometry":{"type":"Point","coordinates":[110.1799613,-7.5578056]},"properties":{"FID":122,"nama_pemil":"Bapak Trihantoko","_Koordinat":-7.5578056,"_Koordin_1":110.1799613}},{"type":"Feature","id":123,"geometry":{"type":"Point","coordinates":[110.1798457,-7.5579196]},"properties":{"FID":123,"nama_pemil":"Bapak Agus Nudyanto","_Koordinat":-7.5579196,"_Koordin_1":110.1798457}},{"type":"Feature","id":124,"geometry":{"type":"Point","coordinates":[110.17991929999999,-7.5580543999999996]},"properties":{"FID":124,"nama_pemil":"Bapak Kusnir","_Koordinat":-7.5580543999999996,"_Koordin_1":110.17991929999999}},{"type":"Feature","id":125,"geometry":{"type":"Point","coordinates":[110.17990020000001,-7.5582094]},"properties":{"FID":125,"nama_pemil":"Ibu Asmunah","_Koordinat":-7.5582094,"_Koordin_1":110.17990020000001}},{"type":"Feature","id":126,"geometry":{"type":"Point","coordinates":[110.1800104,-7.5583545000000001]},"properties":{"FID":126,"nama_pemil":"Bapak Sobar","_Koordinat":-7.5583545000000001,"_Koordin_1":110.1800104}},{"type":"Feature","id":127,"geometry":{"type":"Point","coordinates":[110.1799427,-7.5587502999999998]},"properties":{"FID":127,"nama_pemil":"RA MUSLIMAT NU","_Koordinat":-7.5587502999999998,"_Koordin_1":110.1799427}},{"type":"Feature","id":128,"geometry":{"type":"Point","coordinates":[110.17931160000001,-7.5575723000000004]},"properties":{"FID":128,"nama_pemil":"Musfiyah","_Koordinat":-7.5575723000000004,"_Koordin_1":110.17931160000001}},{"type":"Feature","id":129,"geometry":{"type":"Point","coordinates":[110.17927899999999,-7.5576401000000004]},"properties":{"FID":129,"nama_pemil":"Syukron","_Koordinat":-7.5576401000000004,"_Koordin_1":110.17927899999999}},{"type":"Feature","id":130,"geometry":{"type":"Point","coordinates":[110.1792864,-7.5578906000000003]},"properties":{"FID":130,"nama_pemil":"Sodikun","_Koordinat":-7.5578906000000003,"_Koordin_1":110.1792864}},{"type":"Feature","id":131,"geometry":{"type":"Point","coordinates":[110.1793808,-7.5579368000000002]},"properties":{"FID":131,"nama_pemil":"M. Wachid","_Koordinat":-7.5579368000000002,"_Koordin_1":110.1793808}},{"type":"Feature","id":132,"geometry":{"type":"Point","coordinates":[110.1793823,-7.5579255999999999]},"properties":{"FID":132,"nama_pemil":"M. Wachid","_Koordinat":-7.5579255999999999,"_Koordin_1":110.1793823}},{"type":"Feature","id":133,"geometry":{"type":"Point","coordinates":[110.1785543,-7.5561224999999999]},"properties":{"FID":133,"nama_pemil":"Bapak Muslih","_Koordinat":-7.5561224999999999,"_Koordin_1":110.1785543}},{"type":"Feature","id":134,"geometry":{"type":"Point","coordinates":[110.178707,-7.5559506000000001]},"properties":{"FID":134,"nama_pemil":"Bapak Marzuki","_Koordinat":-7.5559506000000001,"_Koordin_1":110.178707}},{"type":"Feature","id":135,"geometry":{"type":"Point","coordinates":[110.17776910000001,-7.5565144999999996]},"properties":{"FID":135,"nama_pemil":"Muhammad Khoirudin","_Koordinat":-7.5565144999999996,"_Koordin_1":110.17776910000001}},{"type":"Feature","id":136,"geometry":{"type":"Point","coordinates":[110.1789344,-7.5577823000000004]},"properties":{"FID":136,"nama_pemil":"Rojuli","_Koordinat":-7.5577823000000004,"_Koordin_1":110.1789344}},{"type":"Feature","id":137,"geometry":{"type":"Point","coordinates":[110.177727,-7.5553375999999997]},"properties":{"FID":137,"nama_pemil":"-","_Koordinat":-7.5553375999999997,"_Koordin_1":110.177727}},{"type":"Feature","id":138,"geometry":{"type":"Point","coordinates":[110.1772816,-7.5557084999999997]},"properties":{"FID":138,"nama_pemil":"Imam Sahli","_Koordinat":-7.5557084999999997,"_Koordin_1":110.1772816}},{"type":"Feature","id":139,"geometry":{"type":"Point","coordinates":[110.1772488,-7.5555675000000004]},"properties":{"FID":139,"nama_pemil":"Imam Sahli","_Koordinat":-7.5555675000000004,"_Koordin_1":110.1772488}},{"type":"Feature","id":140,"geometry":{"type":"Point","coordinates":[110.1773625,-7.5557287999999998]},"properties":{"FID":140,"nama_pemil":"Erna","_Koordinat":-7.5557287999999998,"_Koordin_1":110.1773625}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1782674, -7.5571932000000004]
+      },
+      "properties": {
+        "FID": 0,
+        "nama_pemil": "Sri Chayati",
+        "_Koordinat": -7.5571932000000004,
+        "_Koordin_1": 110.1782674
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1782857, -7.5572017999999996]
+      },
+      "properties": {
+        "FID": 1,
+        "nama_pemil": "Sri Chayati",
+        "_Koordinat": -7.5572017999999996,
+        "_Koordin_1": 110.1782857
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1789555, -7.5573797000000003]
+      },
+      "properties": {
+        "FID": 2,
+        "nama_pemil": "Mursalin",
+        "_Koordinat": -7.5573797000000003,
+        "_Koordin_1": 110.1789555
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1792798, -7.5571242999999999]
+      },
+      "properties": {
+        "FID": 3,
+        "nama_pemil": "Siti RoRodliah",
+        "_Koordinat": -7.5571242999999999,
+        "_Koordin_1": 110.1792798
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.17917559999999, -7.5569237999999999]
+      },
+      "properties": {
+        "FID": 4,
+        "nama_pemil": "Pak Syakir",
+        "_Koordinat": -7.5569237999999999,
+        "_Koordin_1": 110.17917559999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1791475, -7.5570224000000001]
+      },
+      "properties": {
+        "FID": 5,
+        "nama_pemil": "Pak Syakir",
+        "_Koordinat": -7.5570224000000001,
+        "_Koordin_1": 110.1791475
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.17975439999999, -7.5564403000000002]
+      },
+      "properties": {
+        "FID": 6,
+        "nama_pemil": "-",
+        "_Koordinat": -7.5564403000000002,
+        "_Koordin_1": 110.17975439999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1797545, -7.5562398999999996]
+      },
+      "properties": {
+        "FID": 7,
+        "nama_pemil": "Ibu Zumrotun",
+        "_Koordinat": -7.5562398999999996,
+        "_Koordin_1": 110.1797545
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1796659, -7.5560089000000001]
+      },
+      "properties": {
+        "FID": 8,
+        "nama_pemil": "-",
+        "_Koordinat": -7.5560089000000001,
+        "_Koordin_1": 110.1796659
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.17975629999999, -7.5558455999999996]
+      },
+      "properties": {
+        "FID": 9,
+        "nama_pemil": "Pak Sutarno",
+        "_Koordinat": -7.5558455999999996,
+        "_Koordin_1": 110.17975629999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1797706, -7.5560217999999999]
+      },
+      "properties": {
+        "FID": 10,
+        "nama_pemil": "Pak Joko",
+        "_Koordinat": -7.5560217999999999,
+        "_Koordin_1": 110.1797706
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1799773, -7.5556979999999996]
+      },
+      "properties": {
+        "FID": 11,
+        "nama_pemil": "-",
+        "_Koordinat": -7.5556979999999996,
+        "_Koordin_1": 110.1799773
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1800416, -7.5561157999999997]
+      },
+      "properties": {
+        "FID": 12,
+        "nama_pemil": "Pak Singgih",
+        "_Koordinat": -7.5561157999999997,
+        "_Koordin_1": 110.1800416
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1799597, -7.5560263000000001]
+      },
+      "properties": {
+        "FID": 13,
+        "nama_pemil": "Pak Ahmad Marzuki",
+        "_Koordinat": -7.5560263000000001,
+        "_Koordin_1": 110.1799597
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": { "type": "Point", "coordinates": [110.1799583, -7.556165] },
+      "properties": {
+        "FID": 14,
+        "nama_pemil": "Pak Ahmad Marzuki",
+        "_Koordinat": -7.556165,
+        "_Koordin_1": 110.1799583
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.17989009999999, -7.5570576000000003]
+      },
+      "properties": {
+        "FID": 15,
+        "nama_pemil": "Pak Muhjamil",
+        "_Koordinat": -7.5570576000000003,
+        "_Koordin_1": 110.17989009999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1798793, -7.5570769999999996]
+      },
+      "properties": {
+        "FID": 16,
+        "nama_pemil": "Pak Muhjamil",
+        "_Koordinat": -7.5570769999999996,
+        "_Koordin_1": 110.1798793
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.179631, -7.5564961999999998]
+      },
+      "properties": {
+        "FID": 17,
+        "nama_pemil": "Pak Solikin",
+        "_Koordinat": -7.5564961999999998,
+        "_Koordin_1": 110.179631
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.17956390000001, -7.5566012999999996]
+      },
+      "properties": {
+        "FID": 18,
+        "nama_pemil": "Pak Rambat",
+        "_Koordinat": -7.5566012999999996,
+        "_Koordin_1": 110.17956390000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.17974150000001, -7.5564023999999996]
+      },
+      "properties": {
+        "FID": 19,
+        "nama_pemil": "Marwiyah",
+        "_Koordinat": -7.5564023999999996,
+        "_Koordin_1": 110.17974150000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": { "type": "Point", "coordinates": [110.1805516, -7.5571937] },
+      "properties": {
+        "FID": 20,
+        "nama_pemil": "Pak Muhammad Nurrahman",
+        "_Koordinat": -7.5571937,
+        "_Koordin_1": 110.1805516
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1805269, -7.5572435999999996]
+      },
+      "properties": {
+        "FID": 21,
+        "nama_pemil": "Pak Zuhdi",
+        "_Koordinat": -7.5572435999999996,
+        "_Koordin_1": 110.1805269
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1804946, -7.5571589000000001]
+      },
+      "properties": {
+        "FID": 22,
+        "nama_pemil": "Pak Sugito",
+        "_Koordinat": -7.5571589000000001,
+        "_Koordin_1": 110.1804946
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1803702, -7.5569411999999998]
+      },
+      "properties": {
+        "FID": 23,
+        "nama_pemil": "Pak Muhajir",
+        "_Koordinat": -7.5569411999999998,
+        "_Koordin_1": 110.1803702
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.18051730000001, -7.5569853]
+      },
+      "properties": {
+        "FID": 24,
+        "nama_pemil": "-",
+        "_Koordinat": -7.5569853,
+        "_Koordin_1": 110.18051730000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.18017879999999, -7.5571178999999997]
+      },
+      "properties": {
+        "FID": 25,
+        "nama_pemil": "Alm. Pak Muh. Salim",
+        "_Koordinat": -7.5571178999999997,
+        "_Koordin_1": 110.18017879999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1802782, -7.5570975000000002]
+      },
+      "properties": {
+        "FID": 26,
+        "nama_pemil": "Pak Rohyati",
+        "_Koordinat": -7.5570975000000002,
+        "_Koordin_1": 110.1802782
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1797837, -7.5568650999999996]
+      },
+      "properties": {
+        "FID": 27,
+        "nama_pemil": "Mbah Sudir",
+        "_Koordinat": -7.5568650999999996,
+        "_Koordin_1": 110.1797837
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1826868, -7.5572961000000003]
+      },
+      "properties": {
+        "FID": 28,
+        "nama_pemil": "-",
+        "_Koordinat": -7.5572961000000003,
+        "_Koordin_1": 110.1826868
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1827212, -7.5573269999999999]
+      },
+      "properties": {
+        "FID": 29,
+        "nama_pemil": "-",
+        "_Koordinat": -7.5573269999999999,
+        "_Koordin_1": 110.1827212
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1829245, -7.5572439999999999]
+      },
+      "properties": {
+        "FID": 30,
+        "nama_pemil": "-",
+        "_Koordinat": -7.5572439999999999,
+        "_Koordin_1": 110.1829245
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": { "type": "Point", "coordinates": [110.1829405, -7.5572393] },
+      "properties": {
+        "FID": 31,
+        "nama_pemil": "-",
+        "_Koordinat": -7.5572393,
+        "_Koordin_1": 110.1829405
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1829398, -7.5572246999999999]
+      },
+      "properties": {
+        "FID": 32,
+        "nama_pemil": "-",
+        "_Koordinat": -7.5572246999999999,
+        "_Koordin_1": 110.1829398
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.18240470000001, -7.5577139000000004]
+      },
+      "properties": {
+        "FID": 33,
+        "nama_pemil": "-",
+        "_Koordinat": -7.5577139000000004,
+        "_Koordin_1": 110.18240470000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1817992, -7.5577987000000002]
+      },
+      "properties": {
+        "FID": 34,
+        "nama_pemil": "-",
+        "_Koordinat": -7.5577987000000002,
+        "_Koordin_1": 110.1817992
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.17953060000001, -7.5571541]
+      },
+      "properties": {
+        "FID": 35,
+        "nama_pemil": "Pak Syakur",
+        "_Koordinat": -7.5571541,
+        "_Koordin_1": 110.17953060000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.18080670000001, -7.5584487999999999]
+      },
+      "properties": {
+        "FID": 36,
+        "nama_pemil": "Pak Muhammad Ali Subhan",
+        "_Koordinat": -7.5584487999999999,
+        "_Koordin_1": 110.18080670000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1808521, -7.5582627999999996]
+      },
+      "properties": {
+        "FID": 37,
+        "nama_pemil": "Pak Muhammad Ali Subhan",
+        "_Koordinat": -7.5582627999999996,
+        "_Koordin_1": 110.1808521
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1808594, -7.5580474000000004]
+      },
+      "properties": {
+        "FID": 38,
+        "nama_pemil": "Pak Kalam",
+        "_Koordinat": -7.5580474000000004,
+        "_Koordin_1": 110.1808594
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.18025179999999, -7.5581768]
+      },
+      "properties": {
+        "FID": 39,
+        "nama_pemil": "Pak Istadzi",
+        "_Koordinat": -7.5581768,
+        "_Koordin_1": 110.18025179999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.18031860000001, -7.5567514999999998]
+      },
+      "properties": {
+        "FID": 40,
+        "nama_pemil": "Pak Hermanto",
+        "_Koordinat": -7.5567514999999998,
+        "_Koordin_1": 110.18031860000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1803314, -7.5567704999999998]
+      },
+      "properties": {
+        "FID": 41,
+        "nama_pemil": "Pak Hermanto",
+        "_Koordinat": -7.5567704999999998,
+        "_Koordin_1": 110.1803314
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1803517, -7.5567285999999996]
+      },
+      "properties": {
+        "FID": 42,
+        "nama_pemil": "Pak Slamet",
+        "_Koordinat": -7.5567285999999996,
+        "_Koordin_1": 110.1803517
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.18024320000001, -7.5565778000000003]
+      },
+      "properties": {
+        "FID": 43,
+        "nama_pemil": "Bu Nurkamilah",
+        "_Koordinat": -7.5565778000000003,
+        "_Koordin_1": 110.18024320000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.18028750000001, -7.5566832000000002]
+      },
+      "properties": {
+        "FID": 44,
+        "nama_pemil": "Bu Rusiyah",
+        "_Koordinat": -7.5566832000000002,
+        "_Koordin_1": 110.18028750000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.18026070000001, -7.5564751000000001]
+      },
+      "properties": {
+        "FID": 45,
+        "nama_pemil": "Bu Juwarni",
+        "_Koordinat": -7.5564751000000001,
+        "_Koordin_1": 110.18026070000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.18028390000001, -7.5564821000000002]
+      },
+      "properties": {
+        "FID": 46,
+        "nama_pemil": "Bu Juwarni",
+        "_Koordinat": -7.5564821000000002,
+        "_Koordin_1": 110.18028390000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.18046219999999, -7.5569376000000004]
+      },
+      "properties": {
+        "FID": 47,
+        "nama_pemil": "Pak Muhajir",
+        "_Koordinat": -7.5569376000000004,
+        "_Koordin_1": 110.18046219999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "geometry": { "type": "Point", "coordinates": [110.1805964, -7.5566141] },
+      "properties": {
+        "FID": 48,
+        "nama_pemil": "-",
+        "_Koordinat": -7.5566141,
+        "_Koordin_1": 110.1805964
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1799836, -7.5565781000000003]
+      },
+      "properties": {
+        "FID": 49,
+        "nama_pemil": "Imronah",
+        "_Koordinat": -7.5565781000000003,
+        "_Koordin_1": 110.1799836
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1798424, -7.5565201999999996]
+      },
+      "properties": {
+        "FID": 50,
+        "nama_pemil": "Pak Slamet Uyono",
+        "_Koordinat": -7.5565201999999996,
+        "_Koordin_1": 110.1798424
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1784878, -7.5562329000000004]
+      },
+      "properties": {
+        "FID": 51,
+        "nama_pemil": "Pak Musthofa",
+        "_Koordinat": -7.5562329000000004,
+        "_Koordin_1": 110.1784878
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.17876339999999, -7.5562892000000002]
+      },
+      "properties": {
+        "FID": 52,
+        "nama_pemil": "Ahmad Marzuki",
+        "_Koordinat": -7.5562892000000002,
+        "_Koordin_1": 110.17876339999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.178827, -7.5560103999999999]
+      },
+      "properties": {
+        "FID": 53,
+        "nama_pemil": "Ahmad Marzuki",
+        "_Koordinat": -7.5560103999999999,
+        "_Koordin_1": 110.178827
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37446009999999, -7.7747956]
+      },
+      "properties": {
+        "FID": 54,
+        "nama_pemil": "Bghjm",
+        "_Koordinat": -7.7747956,
+        "_Koordin_1": 110.37446009999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1780512, -7.5559548999999997]
+      },
+      "properties": {
+        "FID": 55,
+        "nama_pemil": "Taufik Hery Purnomo",
+        "_Koordinat": -7.5559548999999997,
+        "_Koordin_1": 110.1780512
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.17887930000001, -7.5563117000000002]
+      },
+      "properties": {
+        "FID": 56,
+        "nama_pemil": "Fakihudin",
+        "_Koordinat": -7.5563117000000002,
+        "_Koordin_1": 110.17887930000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1790967, -7.5562259000000003]
+      },
+      "properties": {
+        "FID": 57,
+        "nama_pemil": "Hanafi",
+        "_Koordinat": -7.5562259000000003,
+        "_Koordin_1": 110.1790967
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.179084, -7.5564622999999997]
+      },
+      "properties": {
+        "FID": 58,
+        "nama_pemil": "Hanafi",
+        "_Koordinat": -7.5564622999999997,
+        "_Koordin_1": 110.179084
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "geometry": { "type": "Point", "coordinates": [110.1790637, -7.5564155] },
+      "properties": {
+        "FID": 59,
+        "nama_pemil": "Haidar",
+        "_Koordinat": -7.5564155,
+        "_Koordin_1": 110.1790637
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1787046, -7.5564492999999997]
+      },
+      "properties": {
+        "FID": 60,
+        "nama_pemil": "Dwi Agus Jatmiko",
+        "_Koordinat": -7.5564492999999997,
+        "_Koordin_1": 110.1787046
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1785533, -7.5565768999999996]
+      },
+      "properties": {
+        "FID": 61,
+        "nama_pemil": "Bapak Muslich",
+        "_Koordinat": -7.5565768999999996,
+        "_Koordin_1": 110.1785533
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.17849889999999, -7.5566806]
+      },
+      "properties": {
+        "FID": 62,
+        "nama_pemil": "-",
+        "_Koordinat": -7.5566806,
+        "_Koordin_1": 110.17849889999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 63,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1783061, -7.5566876000000001]
+      },
+      "properties": {
+        "FID": 63,
+        "nama_pemil": "Bapak Zainal Musafak",
+        "_Koordinat": -7.5566876000000001,
+        "_Koordin_1": 110.1783061
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.17808460000001, -7.5559114999999997]
+      },
+      "properties": {
+        "FID": 64,
+        "nama_pemil": "Taufik Hery Purnomo",
+        "_Koordinat": -7.5559114999999997,
+        "_Koordin_1": 110.17808460000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1780522, -7.5565382000000003]
+      },
+      "properties": {
+        "FID": 65,
+        "nama_pemil": "Bapak Ircham Bayu Pramudya",
+        "_Koordinat": -7.5565382000000003,
+        "_Koordin_1": 110.1780522
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 66,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.17806830000001, -7.5565065999999996]
+      },
+      "properties": {
+        "FID": 66,
+        "nama_pemil": "-",
+        "_Koordinat": -7.5565065999999996,
+        "_Koordin_1": 110.17806830000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1778872, -7.5574509000000001]
+      },
+      "properties": {
+        "FID": 67,
+        "nama_pemil": "Muhsalimi",
+        "_Koordinat": -7.5574509000000001,
+        "_Koordin_1": 110.1778872
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1774132, -7.5564331999999999]
+      },
+      "properties": {
+        "FID": 68,
+        "nama_pemil": "Muhsalimi",
+        "_Koordinat": -7.5564331999999999,
+        "_Koordin_1": 110.1774132
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 69,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1783635, -7.5571523999999997]
+      },
+      "properties": {
+        "FID": 69,
+        "nama_pemil": "Bapak Muhammad Jabir Fahri",
+        "_Koordinat": -7.5571523999999997,
+        "_Koordin_1": 110.1783635
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 70,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.17847620000001, -7.5571636]
+      },
+      "properties": {
+        "FID": 70,
+        "nama_pemil": "Samalun",
+        "_Koordinat": -7.5571636,
+        "_Koordin_1": 110.17847620000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 71,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1786029, -7.5574785999999996]
+      },
+      "properties": {
+        "FID": 71,
+        "nama_pemil": "Bapak Solikin",
+        "_Koordinat": -7.5574785999999996,
+        "_Koordin_1": 110.1786029
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 72,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1791355, -7.5573386999999999]
+      },
+      "properties": {
+        "FID": 72,
+        "nama_pemil": "Fatihin",
+        "_Koordinat": -7.5573386999999999,
+        "_Koordin_1": 110.1791355
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 73,
+      "geometry": { "type": "Point", "coordinates": [110.1791412, -7.5575329] },
+      "properties": {
+        "FID": 73,
+        "nama_pemil": "Mahbub Salim",
+        "_Koordinat": -7.5575329,
+        "_Koordin_1": 110.1791412
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 74,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1795023, -7.5574120999999996]
+      },
+      "properties": {
+        "FID": 74,
+        "nama_pemil": "Khasanah",
+        "_Koordinat": -7.5574120999999996,
+        "_Koordin_1": 110.1795023
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.17881180000001, -7.5581908999999996]
+      },
+      "properties": {
+        "FID": 75,
+        "nama_pemil": "Bu Maslahah",
+        "_Koordinat": -7.5581908999999996,
+        "_Koordin_1": 110.17881180000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 76,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1788631, -7.5584078999999997]
+      },
+      "properties": {
+        "FID": 76,
+        "nama_pemil": "Muhammad Lukman Hakim",
+        "_Koordinat": -7.5584078999999997,
+        "_Koordin_1": 110.1788631
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 77,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.17887229999999, -7.5582221000000001]
+      },
+      "properties": {
+        "FID": 77,
+        "nama_pemil": "Muhammad Lukman Hakim",
+        "_Koordinat": -7.5582221000000001,
+        "_Koordin_1": 110.17887229999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 78,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1789191, -7.5581887999999999]
+      },
+      "properties": {
+        "FID": 78,
+        "nama_pemil": "Muhammad Lukman Hakim",
+        "_Koordinat": -7.5581887999999999,
+        "_Koordin_1": 110.1789191
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 79,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.178893, -7.5582136999999996]
+      },
+      "properties": {
+        "FID": 79,
+        "nama_pemil": "Bapak Mubahin",
+        "_Koordinat": -7.5582136999999996,
+        "_Koordin_1": 110.178893
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 80,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1791357, -7.5581123999999997]
+      },
+      "properties": {
+        "FID": 80,
+        "nama_pemil": "Ahmad Azizul Rahman",
+        "_Koordinat": -7.5581123999999997,
+        "_Koordin_1": 110.1791357
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 81,
+      "geometry": { "type": "Point", "coordinates": [110.1790233, -7.5582981] },
+      "properties": {
+        "FID": 81,
+        "nama_pemil": "Ahmad Taufik",
+        "_Koordinat": -7.5582981,
+        "_Koordin_1": 110.1790233
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 82,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.17918709999999, -7.5582837999999999]
+      },
+      "properties": {
+        "FID": 82,
+        "nama_pemil": "Ahmad",
+        "_Koordinat": -7.5582837999999999,
+        "_Koordin_1": 110.17918709999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 83,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.178603, -7.5581766999999997]
+      },
+      "properties": {
+        "FID": 83,
+        "nama_pemil": "Bu Maslahah",
+        "_Koordinat": -7.5581766999999997,
+        "_Koordin_1": 110.178603
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 84,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1787051, -7.5582301999999997]
+      },
+      "properties": {
+        "FID": 84,
+        "nama_pemil": "Bu Maslahah",
+        "_Koordinat": -7.5582301999999997,
+        "_Koordin_1": 110.1787051
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 85,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1784849, -7.5581373999999997]
+      },
+      "properties": {
+        "FID": 85,
+        "nama_pemil": "Bapak Riyanto",
+        "_Koordinat": -7.5581373999999997,
+        "_Koordin_1": 110.1784849
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 86,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.178361, -7.5580195999999997]
+      },
+      "properties": {
+        "FID": 86,
+        "nama_pemil": "Bapak Muhson",
+        "_Koordinat": -7.5580195999999997,
+        "_Koordin_1": 110.178361
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 87,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.178246, -7.5577398999999996]
+      },
+      "properties": {
+        "FID": 87,
+        "nama_pemil": "Irmadi",
+        "_Koordinat": -7.5577398999999996,
+        "_Koordin_1": 110.178246
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 88,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1791607, -7.5584923000000002]
+      },
+      "properties": {
+        "FID": 88,
+        "nama_pemil": "Ibu Nasikah",
+        "_Koordinat": -7.5584923000000002,
+        "_Koordin_1": 110.1791607
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 89,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.179265, -7.5586229999999999]
+      },
+      "properties": {
+        "FID": 89,
+        "nama_pemil": "Bapak Muhson Ridwan",
+        "_Koordinat": -7.5586229999999999,
+        "_Koordin_1": 110.179265
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 90,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.17937790000001, -7.5585915000000004]
+      },
+      "properties": {
+        "FID": 90,
+        "nama_pemil": "Bapak Muhson Ridwan",
+        "_Koordinat": -7.5585915000000004,
+        "_Koordin_1": 110.17937790000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 91,
+      "geometry": { "type": "Point", "coordinates": [110.1795717, -7.5582322] },
+      "properties": {
+        "FID": 91,
+        "nama_pemil": "-",
+        "_Koordinat": -7.5582322,
+        "_Koordin_1": 110.1795717
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 92,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1797107, -7.5583184000000001]
+      },
+      "properties": {
+        "FID": 92,
+        "nama_pemil": "Ibu Rina",
+        "_Koordinat": -7.5583184000000001,
+        "_Koordin_1": 110.1797107
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 93,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.17976419999999, -7.5582450000000003]
+      },
+      "properties": {
+        "FID": 93,
+        "nama_pemil": "Bapak Nur Muhammad",
+        "_Koordinat": -7.5582450000000003,
+        "_Koordin_1": 110.17976419999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 94,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1795499, -7.5582019000000003]
+      },
+      "properties": {
+        "FID": 94,
+        "nama_pemil": "Bapak",
+        "_Koordinat": -7.5582019000000003,
+        "_Koordin_1": 110.1795499
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 95,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1796567, -7.5588389999999999]
+      },
+      "properties": {
+        "FID": 95,
+        "nama_pemil": "MI WALISONGO",
+        "_Koordinat": -7.5588389999999999,
+        "_Koordin_1": 110.1796567
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 96,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1798823, -7.5589355999999999]
+      },
+      "properties": {
+        "FID": 96,
+        "nama_pemil": "MI WALISONGO",
+        "_Koordinat": -7.5589355999999999,
+        "_Koordin_1": 110.1798823
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 97,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1799084, -7.5588923000000001]
+      },
+      "properties": {
+        "FID": 97,
+        "nama_pemil": "Masjid Al Ikhlas",
+        "_Koordinat": -7.5588923000000001,
+        "_Koordin_1": 110.1799084
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 98,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1798876, -7.5590437000000001]
+      },
+      "properties": {
+        "FID": 98,
+        "nama_pemil": "Masjid Al Ikhlas",
+        "_Koordinat": -7.5590437000000001,
+        "_Koordin_1": 110.1798876
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 99,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1799863, -7.5571317000000002]
+      },
+      "properties": {
+        "FID": 99,
+        "nama_pemil": "Ibu Nanten",
+        "_Koordinat": -7.5571317000000002,
+        "_Koordin_1": 110.1799863
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 100,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.18002869999999, -7.5569870000000003]
+      },
+      "properties": {
+        "FID": 100,
+        "nama_pemil": "Ibu Nanten",
+        "_Koordinat": -7.5569870000000003,
+        "_Koordin_1": 110.18002869999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 101,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1785862, -7.5568109000000003]
+      },
+      "properties": {
+        "FID": 101,
+        "nama_pemil": "Bapak Tamiyis",
+        "_Koordinat": -7.5568109000000003,
+        "_Koordin_1": 110.1785862
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 102,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1787717, -7.5573176000000002]
+      },
+      "properties": {
+        "FID": 102,
+        "nama_pemil": "Mursalin",
+        "_Koordinat": -7.5573176000000002,
+        "_Koordin_1": 110.1787717
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 103,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1804812, -7.5591780000000002]
+      },
+      "properties": {
+        "FID": 103,
+        "nama_pemil": "Fatkhurohman",
+        "_Koordinat": -7.5591780000000002,
+        "_Koordin_1": 110.1804812
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 104,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1803295, -7.5586558000000004]
+      },
+      "properties": {
+        "FID": 104,
+        "nama_pemil": "Ahmad Syafi'i",
+        "_Koordinat": -7.5586558000000004,
+        "_Koordin_1": 110.1803295
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 105,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1805583, -7.5586881999999997]
+      },
+      "properties": {
+        "FID": 105,
+        "nama_pemil": "-",
+        "_Koordinat": -7.5586881999999997,
+        "_Koordin_1": 110.1805583
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 106,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1813241, -7.5593288999999997]
+      },
+      "properties": {
+        "FID": 106,
+        "nama_pemil": "Ibu Juminah",
+        "_Koordinat": -7.5593288999999997,
+        "_Koordin_1": 110.1813241
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 107,
+      "geometry": { "type": "Point", "coordinates": [110.1811403, -7.559259] },
+      "properties": {
+        "FID": 107,
+        "nama_pemil": "Bapak Didik",
+        "_Koordinat": -7.559259,
+        "_Koordin_1": 110.1811403
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 108,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.18131219999999, -7.5593820999999997]
+      },
+      "properties": {
+        "FID": 108,
+        "nama_pemil": "Bapak Robert",
+        "_Koordinat": -7.5593820999999997,
+        "_Koordin_1": 110.18131219999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 109,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1824331, -7.5608196999999997]
+      },
+      "properties": {
+        "FID": 109,
+        "nama_pemil": "-",
+        "_Koordinat": -7.5608196999999997,
+        "_Koordin_1": 110.1824331
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 110,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1825817, -7.5613146000000002]
+      },
+      "properties": {
+        "FID": 110,
+        "nama_pemil": "-",
+        "_Koordinat": -7.5613146000000002,
+        "_Koordin_1": 110.1825817
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 111,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1825456, -7.5613415000000002]
+      },
+      "properties": {
+        "FID": 111,
+        "nama_pemil": "-",
+        "_Koordinat": -7.5613415000000002,
+        "_Koordin_1": 110.1825456
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 112,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1824696, -7.5609184000000003]
+      },
+      "properties": {
+        "FID": 112,
+        "nama_pemil": "-",
+        "_Koordinat": -7.5609184000000003,
+        "_Koordin_1": 110.1824696
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 113,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.18001529999999, -7.5572052999999997]
+      },
+      "properties": {
+        "FID": 113,
+        "nama_pemil": "Bapak Ahmad Fatoni",
+        "_Koordinat": -7.5572052999999997,
+        "_Koordin_1": 110.18001529999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 114,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.180222, -7.5574234999999996]
+      },
+      "properties": {
+        "FID": 114,
+        "nama_pemil": "Bapak Marfatoni",
+        "_Koordinat": -7.5574234999999996,
+        "_Koordin_1": 110.180222
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 115,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1798854, -7.5571000000000002]
+      },
+      "properties": {
+        "FID": 115,
+        "nama_pemil": "Bapak Ahmad Fatoni",
+        "_Koordinat": -7.5571000000000002,
+        "_Koordin_1": 110.1798854
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 116,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1800925, -7.5571967999999998]
+      },
+      "properties": {
+        "FID": 116,
+        "nama_pemil": "Ahmad Fatoni",
+        "_Koordinat": -7.5571967999999998,
+        "_Koordin_1": 110.1800925
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 117,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.180076, -7.5570035999999998]
+      },
+      "properties": {
+        "FID": 117,
+        "nama_pemil": "Ahmad Fatoni",
+        "_Koordinat": -7.5570035999999998,
+        "_Koordin_1": 110.180076
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 118,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1798455, -7.5573145000000004]
+      },
+      "properties": {
+        "FID": 118,
+        "nama_pemil": "Bapak Safi'i",
+        "_Koordinat": -7.5573145000000004,
+        "_Koordin_1": 110.1798455
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 119,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.18005890000001, -7.5578697999999997]
+      },
+      "properties": {
+        "FID": 119,
+        "nama_pemil": "Muhtarom",
+        "_Koordinat": -7.5578697999999997,
+        "_Koordin_1": 110.18005890000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 120,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.18028219999999, -7.5574722000000003]
+      },
+      "properties": {
+        "FID": 120,
+        "nama_pemil": "Bapak Kabul",
+        "_Koordinat": -7.5574722000000003,
+        "_Koordin_1": 110.18028219999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 121,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1804966, -7.5578878999999999]
+      },
+      "properties": {
+        "FID": 121,
+        "nama_pemil": "Bapak Kabul",
+        "_Koordinat": -7.5578878999999999,
+        "_Koordin_1": 110.1804966
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 122,
+      "geometry": { "type": "Point", "coordinates": [110.1799613, -7.5578056] },
+      "properties": {
+        "FID": 122,
+        "nama_pemil": "Bapak Trihantoko",
+        "_Koordinat": -7.5578056,
+        "_Koordin_1": 110.1799613
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 123,
+      "geometry": { "type": "Point", "coordinates": [110.1798457, -7.5579196] },
+      "properties": {
+        "FID": 123,
+        "nama_pemil": "Bapak Agus Nudyanto",
+        "_Koordinat": -7.5579196,
+        "_Koordin_1": 110.1798457
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 124,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.17991929999999, -7.5580543999999996]
+      },
+      "properties": {
+        "FID": 124,
+        "nama_pemil": "Bapak Kusnir",
+        "_Koordinat": -7.5580543999999996,
+        "_Koordin_1": 110.17991929999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 125,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.17990020000001, -7.5582094]
+      },
+      "properties": {
+        "FID": 125,
+        "nama_pemil": "Ibu Asmunah",
+        "_Koordinat": -7.5582094,
+        "_Koordin_1": 110.17990020000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 126,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1800104, -7.5583545000000001]
+      },
+      "properties": {
+        "FID": 126,
+        "nama_pemil": "Bapak Sobar",
+        "_Koordinat": -7.5583545000000001,
+        "_Koordin_1": 110.1800104
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 127,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1799427, -7.5587502999999998]
+      },
+      "properties": {
+        "FID": 127,
+        "nama_pemil": "RA MUSLIMAT NU",
+        "_Koordinat": -7.5587502999999998,
+        "_Koordin_1": 110.1799427
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 128,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.17931160000001, -7.5575723000000004]
+      },
+      "properties": {
+        "FID": 128,
+        "nama_pemil": "Musfiyah",
+        "_Koordinat": -7.5575723000000004,
+        "_Koordin_1": 110.17931160000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 129,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.17927899999999, -7.5576401000000004]
+      },
+      "properties": {
+        "FID": 129,
+        "nama_pemil": "Syukron",
+        "_Koordinat": -7.5576401000000004,
+        "_Koordin_1": 110.17927899999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 130,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1792864, -7.5578906000000003]
+      },
+      "properties": {
+        "FID": 130,
+        "nama_pemil": "Sodikun",
+        "_Koordinat": -7.5578906000000003,
+        "_Koordin_1": 110.1792864
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 131,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1793808, -7.5579368000000002]
+      },
+      "properties": {
+        "FID": 131,
+        "nama_pemil": "M. Wachid",
+        "_Koordinat": -7.5579368000000002,
+        "_Koordin_1": 110.1793808
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 132,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1793823, -7.5579255999999999]
+      },
+      "properties": {
+        "FID": 132,
+        "nama_pemil": "M. Wachid",
+        "_Koordinat": -7.5579255999999999,
+        "_Koordin_1": 110.1793823
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 133,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1785543, -7.5561224999999999]
+      },
+      "properties": {
+        "FID": 133,
+        "nama_pemil": "Bapak Muslih",
+        "_Koordinat": -7.5561224999999999,
+        "_Koordin_1": 110.1785543
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 134,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.178707, -7.5559506000000001]
+      },
+      "properties": {
+        "FID": 134,
+        "nama_pemil": "Bapak Marzuki",
+        "_Koordinat": -7.5559506000000001,
+        "_Koordin_1": 110.178707
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 135,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.17776910000001, -7.5565144999999996]
+      },
+      "properties": {
+        "FID": 135,
+        "nama_pemil": "Muhammad Khoirudin",
+        "_Koordinat": -7.5565144999999996,
+        "_Koordin_1": 110.17776910000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 136,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1789344, -7.5577823000000004]
+      },
+      "properties": {
+        "FID": 136,
+        "nama_pemil": "Rojuli",
+        "_Koordinat": -7.5577823000000004,
+        "_Koordin_1": 110.1789344
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 137,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.177727, -7.5553375999999997]
+      },
+      "properties": {
+        "FID": 137,
+        "nama_pemil": "-",
+        "_Koordinat": -7.5553375999999997,
+        "_Koordin_1": 110.177727
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 138,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1772816, -7.5557084999999997]
+      },
+      "properties": {
+        "FID": 138,
+        "nama_pemil": "Imam Sahli",
+        "_Koordinat": -7.5557084999999997,
+        "_Koordin_1": 110.1772816
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 139,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1772488, -7.5555675000000004]
+      },
+      "properties": {
+        "FID": 139,
+        "nama_pemil": "Imam Sahli",
+        "_Koordinat": -7.5555675000000004,
+        "_Koordin_1": 110.1772488
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 140,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1773625, -7.5557287999999998]
+      },
+      "properties": {
+        "FID": 140,
+        "nama_pemil": "Erna",
+        "_Koordinat": -7.5557287999999998,
+        "_Koordin_1": 110.1773625
+      }
+    }
+  ]
+}

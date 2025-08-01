@@ -80,7 +80,7 @@ export const InfiniteMovingCards: React.FC<InfiniteMovingCardsProps> = ({
         {items.map((item) => (
           <li
             key={item.name}
-            className="relative w-[350px] max-w-full shrink-0 rounded-2xl border border-zinc-300/30 bg-gradient-to-br from-pink-100 via-purple-100 to-indigo-100 dark:from-[#2c2c3a] dark:via-[#1f1f2b] dark:to-[#14141f] px-6 py-6 md:w-[450px] overflow-hidden transition transform duration-300 hover:scale-105 hover:shadow-2xl"
+            className="relative w-[350px] max-w-full shrink-0 rounded-2xl border border-zinc-300/30 backdrop-blur-xl bg-slate-900 bg-opacity-50 px-6 py-6 md:w-[450px] overflow-hidden transition transform duration-300 hover:scale-105 hover:shadow-2xl"
           >
             <div className="absolute inset-0 -z-10 overflow-hidden">
               <Meteors number={5} className={undefined} />

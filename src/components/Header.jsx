@@ -1,4 +1,4 @@
-"use client"; 
+"use client";
 import 'boxicons/css/boxicons.min.css';
 import MagicButton from './MagicButton';
 
@@ -17,18 +17,18 @@ const Header = ({ onMapClick, isMapVisible, navigateToSection }) => {
     };
 
     return (
-        <header className="fixed top-0 left-0 w-full z-50 flex justify-between items-center py-4 px-4 lg:px-20 bg-opacity-90 backdrop-blur-md shadow-lg font-['Poppins']">
+        <header className="fixed top-0 left-0 w-full z-50 flex justify-between items-center py-4 px-4 lg:px-20 bg-opacity-90 backdrop-blur-lg shadow-lg font-['Poppins']">
             <a href="/" className="flex items-center text-3xl md:text-4xl lg:text-2xl font-bold m-0 text-gradient tracking-tight" data-aos="fade-down" data-aos-duration="1500">
                 <img src="logo.png" alt="Logo Sumber Arum" className="h-12 w-auto mr-3" />
                 Source.
             </a>
 
             {/* Navigasi Desktop */}
-            <nav className="hidden md:flex items-center gap-10">
-                <button onClick={() => navigateToSection("profile")} className="text-base tracking-wide transition-colors duration-300 hover:text-blue-300 text-gray-200 z-50" data-aos="fade-down" data-aos-duration="1000">Profil</button>
-                <button onClick={() => navigateToSection("geographical")} className="text-base tracking-wide transition-colors duration-300 hover:text-blue-300 text-gray-200 z-50" data-aos="fade-down" data-aos-duration="2500">Geografis</button>
-                <button onClick={() => navigateToSection("facilities")} className="text-base tracking-wide transition-colors duration-300 hover:text-blue-300 text-gray-200 z-50" data-aos="fade-down" data-aos-duration="2000">Fasilitas Umum</button>
-                <button onClick={() => navigateToSection("documentation")} className="text-base tracking-wide transition-colors duration-300 hover:text-blue-300 text-gray-200 z-50" data-aos="fade-down" data-aos-duration="3000">Dokumentasi</button>
+            <nav className="hidden md:flex items-center gap-10 group"> {/* Add group class here */}
+                <button onClick={() => navigateToSection("profile")} className="text-base tracking-wide transition-all duration-300 text-gray-200 group-hover:text-gray-400 group-hover:blur-[1px] hover:!text-blue-300 hover:!blur-none z-50" data-aos="fade-down" data-aos-duration="1000">Profil</button>
+                <button onClick={() => navigateToSection("geographical")} className="text-base tracking-wide transition-all duration-300 text-gray-200 group-hover:text-gray-400 group-hover:blur-[1px] hover:!text-blue-300 hover:!blur-none z-50" data-aos="fade-down" data-aos-duration="2500">Geografis</button>
+                <button onClick={() => navigateToSection("facilities")} className="text-base tracking-wide transition-all duration-300 text-gray-200 group-hover:text-gray-400 group-hover:blur-[1px] hover:!text-blue-300 hover:!blur-none z-50" data-aos="fade-down" data-aos-duration="2000">Fasilitas Umum</button>
+                <button onClick={() => navigateToSection("documentation")} className="text-base tracking-wide transition-all duration-300 text-gray-200 group-hover:text-gray-400 group-hover:blur-[1px] hover:!text-blue-300 hover:!blur-none z-50" data-aos="fade-down" data-aos-duration="3000">Dokumentasi</button>
             </nav>
 
             {/* Tombol MagicButton Desktop */}

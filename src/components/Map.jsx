@@ -21,13 +21,8 @@ export default function Map({ isVisible }) {
     const [mapStyle, setMapStyle] = useState('mapbox://styles/mapbox/navigation-day-v1');
     const [is3DMode, setIs3DMode] = useState(false);
 
-    // Definisi path ikon PNG
     const iconPaths = {
-        'industri-icon': '/icon/industri.png',
-        'pemakaman-icon': '/icon/pemakaman.png',
-        'pendidikan-icon': '/icon/pendidikan.png',
-        'peribadatan-icon': '/icon/peribadatan.png',
-        'telekomunikasi-icon': '/icon/telekomunikasi.png',
+
     };
 
     // --- Initial Layers Configuration ---
@@ -119,6 +114,21 @@ export default function Map({ isVisible }) {
                         visibility: 'visible'
                     }
                 },
+                {
+                    id: 'bangunan-titik-layer',
+                    sourceId: 'bangunan-titik-source',
+                    source: '/data/bangunan_titik.json',
+                    type: 'circle',
+                    paint: {
+                        'circle-color': '#00BFFF',
+                        'circle-radius': 6,
+                        'circle-stroke-width': 1,
+                        'circle-stroke-color': '#FFFFFF'
+                    },
+                    layout: {
+                        visibility: 'visible'
+                    }
+                }
             ],
         },
         {
@@ -179,134 +189,47 @@ export default function Map({ isVisible }) {
             }],
         },
         {
-            id: 'sarana-prasarana-group',
-            name: 'Sarana dan Prasarana',
+            id: 'umkm-group',
+            name: 'Usaha Mikro, Kecil, dan Menengah (UMKM)',
             visible: true,
             layers: [
                 {
-                    id: 'telekomunikasi-layer',
-                    sourceId: 'telekomunikasi-source',
-                    source: '/data/Telekomunikasi.json',
-                    type: 'symbol', // *** Ubah ke 'symbol' ***
+                    id: 'umkm-circle-layer', // Layer untuk simbol lingkaran
+                    sourceId: 'umkm-source',
+                    source: '/data/umkm.json',
+                    type: 'circle',
                     paint: {
-                        // Hapus 'icon-color' jika ikon PNG Anda sudah memiliki warna yang diinginkan
-                        // atau jika Anda ingin ikonnya muncul sesuai warna aslinya.
-                        // 'icon-color': '#64b5f6', // Tidak diperlukan lagi untuk PNG berwarna
+                        'circle-color': '#FFD700', // Warna Gold
+                        'circle-radius': 7,
+                        'circle-stroke-width': 1,
+                        'circle-stroke-color': '#FFFFFF'
+                    },
+                    layout: {
+                        visibility: 'visible'
+                    }
+                },
+                {
+                    id: 'umkm-label-layer', // Layer baru untuk label teks
+                    sourceId: 'umkm-source', // Menggunakan sumber data yang sama
+                    source: '/data/umkm.json', // Sumber data perlu tetap ada jika dimuat secara dinamis
+                    type: 'symbol', // Tipe layer untuk teks/simbol
+                    paint: {
                         'text-color': '#FFFFFF', // Warna teks label
                         'text-halo-color': '#000000', // Warna outline teks
                         'text-halo-width': 1,
                     },
                     layout: {
-                        'icon-image': 'telekomunikasi-icon', // *** Nama ikon yang akan ditambahkan Mapbox ***
-                        'icon-size': 0.8, // Sesuaikan ukuran ikon (1.0 = ukuran asli PNG)
-                        'icon-allow-overlap': true,
-                        'text-field': ['get', 'nama'],
-                        'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'],
-                        'text-size': 12,
-                        'text-offset': [0, 1.2],
-                        'text-anchor': 'top',
-                        'text-allow-overlap': true,
+                        'text-field': ['get', 'Title'], // Mengambil teks dari properti 'Title'
+                        'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'], // Font teks
+                        'text-size': 14, // Ukuran teks
+                        'text-offset': [0, 1.5], // Offset teks dari titik (di atas lingkaran)
+                        'text-anchor': 'top', // Penempatan teks relatif terhadap titik
+                        'text-allow-overlap': true, // Memungkinkan label tumpang tindih
                         'visibility': 'visible'
                     }
-                },
-                {
-                    id: 'peribadatan-layer',
-                    sourceId: 'peribadatan-source',
-                    source: '/data/Peribadatan.json',
-                    type: 'symbol', // *** Ubah ke 'symbol' ***
-                    paint: {
-                        // 'icon-color': '#9575cd', // Tidak diperlukan
-                        'text-color': '#FFFFFF',
-                        'text-halo-color': '#000000',
-                        'text-halo-width': 1,
-                    },
-                    layout: {
-                        'icon-image': 'peribadatan-icon', // *** Nama ikon yang akan ditambahkan Mapbox ***
-                        'icon-size': 0.8,
-                        'icon-allow-overlap': true,
-                        'text-field': ['get', 'nama'],
-                        'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'],
-                        'text-size': 12,
-                        'text-offset': [0, 1.2],
-                        'text-anchor': 'top',
-                        'text-allow-overlap': true,
-                        'visibility': 'visible'
-                    }
-                },
-                {
-                    id: 'pendidikan-layer',
-                    sourceId: 'pendidikan-source',
-                    source: '/data/Pendidikan.json',
-                    type: 'symbol', // *** Ubah ke 'symbol' ***
-                    paint: {
-                        // 'icon-color': '#7986cb', // Tidak diperlukan
-                        'text-color': '#FFFFFF',
-                        'text-halo-color': '#000000',
-                        'text-halo-width': 1,
-                    },
-                    layout: {
-                        'icon-image': 'pendidikan-icon', // *** Nama ikon yang akan ditambahkan Mapbox ***
-                        'icon-size': 0.8,
-                        'icon-allow-overlap': true,
-                        'text-field': ['get', 'nama'],
-                        'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'],
-                        'text-size': 12,
-                        'text-offset': [0, 1.2],
-                        'text-anchor': 'top',
-                        'text-allow-overlap': true,
-                        'visibility': 'visible'
-                    }
-                },
-                {
-                    id: 'pemakaman-layer',
-                    sourceId: 'pemakaman-source',
-                    source: '/data/Pemakaman.json',
-                    type: 'symbol', // *** Ubah ke 'symbol' ***
-                    paint: {
-                        // 'icon-color': '#757575', // Tidak diperlukan
-                        'text-color': '#FFFFFF',
-                        'text-halo-color': '#000000',
-                        'text-halo-width': 1,
-                    },
-                    layout: {
-                        'icon-image': 'pemakaman-icon', // *** Nama ikon yang akan ditambahkan Mapbox ***
-                        'icon-size': 0.8,
-                        'icon-allow-overlap': true,
-                        'text-field': ['get', 'nama'],
-                        'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'],
-                        'text-size': 12,
-                        'text-offset': [0, 1.2],
-                        'text-anchor': 'top',
-                        'text-allow-overlap': true,
-                        'visibility': 'visible'
-                    }
-                },
-                {
-                    id: 'industri-layer',
-                    sourceId: 'industri-source',
-                    source: '/data/Industri.json',
-                    type: 'symbol', // *** Ubah ke 'symbol' ***
-                    paint: {
-                        // 'icon-color': '#a1887f', // Tidak diperlukan
-                        'text-color': '#FFFFFF',
-                        'text-halo-color': '#000000',
-                        'text-halo-width': 1,
-                    },
-                    layout: {
-                        'icon-image': 'industri-icon', // *** Nama ikon yang akan ditambahkan Mapbox ***
-                        'icon-size': 0.8,
-                        'icon-allow-overlap': true,
-                        'text-field': ['get', 'nama'],
-                        'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'],
-                        'text-size': 12,
-                        'text-offset': [0, 1.2],
-                        'text-anchor': 'top',
-                        'text-allow-overlap': true,
-                        'visibility': 'visible'
-                    }
-                },
-            ],
-        },
+                }
+            ]
+        }
     ];
     // --- End Initial Layers Configuration ---
 
@@ -398,8 +321,7 @@ export default function Map({ isVisible }) {
 
         console.log('Loading all layers...');
 
-        // *** PENTING: TAMBAHKAN GAMBAR PNG KE MAP SEBELUM LAYER DIGUNAKAN ***
-        // Kita perlu memuat gambar-gambar ini ke Mapbox sebagai sprite.
+        // Custom PNG icons (if any, although "Sarana Prasarana" group is removed)
         for (const iconName in iconPaths) {
             if (Object.hasOwnProperty.call(iconPaths, iconName)) {
                 if (!map.hasImage(iconName)) {
@@ -409,7 +331,7 @@ export default function Map({ isVisible }) {
                     await new Promise((resolve, reject) => {
                         img.onload = () => {
                             try {
-                                map.addImage(iconName, img); // Tanpa { sdf: true } untuk PNG
+                                map.addImage(iconName, img);
                                 resolve();
                             } catch (e) {
                                 console.error(`Error adding image ${iconName} to map:`, e);
@@ -433,8 +355,8 @@ export default function Map({ isVisible }) {
             { groupId: 'perairan-group', beforeId: null },
             { groupId: 'penggunaan-lahan-group', beforeId: null },
             { groupId: 'bangunan-group', beforeId: 'transportasi-group' },
-            { groupId: 'transportasi-group', beforeId: 'sarana-prasarana-group' },
-            { groupId: 'sarana-prasarana-group', beforeId: null },
+            { groupId: 'transportasi-group', beforeId: 'umkm-group-start' }, // Add a reference ID for UMKM group
+            { groupId: 'umkm-group', beforeId: null },
         ];
 
         for (const order of layerOrder) {
@@ -443,6 +365,7 @@ export default function Map({ isVisible }) {
 
             for (const layerConfig of group.layers) {
                 try {
+                    // Load source only once for a given sourceId
                     if (!map.getSource(layerConfig.sourceId)) {
                         const data = await loadGeoJSONData(layerConfig.source);
                         addSourceToMap(map, layerConfig.sourceId, data);
@@ -450,7 +373,10 @@ export default function Map({ isVisible }) {
 
                     if (!map.getLayer(layerConfig.id)) {
                         let actualBeforeId = order.beforeId;
-                        if (actualBeforeId && !map.getLayer(actualBeforeId)) {
+                        // For umkm-group, ensure umkm-label-layer is above umkm-circle-layer
+                        if (layerConfig.id === 'umkm-label-layer') {
+                            actualBeforeId = 'umkm-circle-layer'; // Place label above circle
+                        } else if (actualBeforeId && !map.getLayer(actualBeforeId)) {
                             actualBeforeId = null;
                         }
 
@@ -488,7 +414,7 @@ export default function Map({ isVisible }) {
         }
 
         console.log('All layers loaded');
-    }, [layers, loadGeoJSONData, addSourceToMap, addLayerToMap, is3DMode, iconPaths]); // Tambahkan iconPaths ke dependencies
+    }, [layers, loadGeoJSONData, addSourceToMap, addLayerToMap, is3DMode, iconPaths]);
 
     // Initialize main map
     useEffect(() => {
@@ -556,6 +482,7 @@ export default function Map({ isVisible }) {
                                             [bounds.getWest(), bounds.getSouth()],
                                             [bounds.getEast(), bounds.getSouth()],
                                             [bounds.getEast(), bounds.getNorth()],
+                                            [bounds.getEast(), bounds.getNorth()],
                                             [bounds.getWest(), bounds.getNorth()],
                                             [bounds.getWest(), bounds.getSouth()]
                                         ]]
@@ -616,26 +543,83 @@ export default function Map({ isVisible }) {
     }, [mapStyle, loadAllLayers]);
 
 
-    // Setup event listeners for point layers (popups and cursor)
+    // Setup event listeners for clickable layers (popups and cursor)
     useEffect(() => {
         const map = mapInstanceRef.current;
         if (!map || !isMapLoadedRef.current) return;
 
-        const pointLayers = [
-            'telekomunikasi-layer',
-            'peribadatan-layer',
-            'pendidikan-layer',
-            'pemakaman-layer',
-            'industri-layer'
+        const clickableLayers = [
+            'bangunan-titik-layer',
+            'penggunaan-lahan-layer',
+            'jalan-layer',
+            'umkm-circle-layer', // Klik pada lingkaran akan memicu popup
+            'umkm-label-layer',  // Klik pada label juga akan memicu popup
+            // Add 'bangunan-layer' if you want popups for polygon buildings too
         ];
 
-        pointLayers.forEach(layerId => {
+        clickableLayers.forEach(layerId => {
             if (map.getLayer(layerId)) {
                 map.on('click', layerId, (e) => {
-                    const coordinates = e.features[0].geometry.coordinates.slice();
-                    const properties = e.features[0].properties;
-                    const { nama = 'Unnamed', jenis = 'Unknown' } = properties;
+                    const feature = e.features[0];
+                    if (!feature) return;
 
+                    const coordinates = feature.geometry.type === 'Point'
+                        ? feature.geometry.coordinates.slice()
+                        : feature.properties._center_coords
+                            ? JSON.parse(feature.properties._center_coords)
+                            : e.lngLat.toArray();
+
+                    const properties = feature.properties;
+                    let popupContent = '<div class="text-white">';
+
+                    // Add a title based on common property names
+                    if (properties.nama_pemil) { // For bangunan_titik.json
+                        popupContent += `<strong class="text-blue-400">${properties.nama_pemil}</strong><br>`;
+                    } else if (properties.KETERANGAN) { // For Jalan.json and PL.json
+                        popupContent += `<strong class="text-blue-400">${properties.KETERANGAN}</strong><br>`;
+                    } else if (properties.Title) { // For umkm.json
+                        popupContent += `<strong class="text-blue-400">${properties.Title}</strong><br>`;
+                    } else if (properties.name) { // General fallback for 'name'
+                        popupContent += `<strong class="text-blue-400">${properties.name}</strong><br>`;
+                    } else if (properties.id) {
+                        popupContent += `<strong class="text-blue-400">Feature ID: ${properties.id}</strong><br>`;
+                    } else {
+                        popupContent += `<strong class="text-blue-400">Information</strong><br>`;
+                    }
+
+                    // Iterate through all properties, excluding common internal ones
+                    for (const key in properties) {
+                        if (Object.hasOwnProperty.call(properties, key) &&
+                            key !== 'id' &&
+                            key !== 'FID' &&
+                            key !== 'OBJECTID' &&
+                            key !== '_Koordinat' && // Exclude coordinates from raw display
+                            key !== '_Koordin_1' && // Exclude coordinates from raw display
+                            key !== '_center_coords' && // Exclude internal center coords
+                            key !== 'SHAPE_Leng' && // Exclude shape properties
+                            key !== 'SHAPE_Area' && // Exclude shape properties
+                            key !== 'Title' && // Already handled as main title
+                            key !== 'KETERANGAN' && // Already handled as main title
+                            key !== 'nama_pemil' && // Already handled as main title
+                            key !== 'name' && // Already handled as main title
+                            key !== 'height' && // Exclude height for buildings as it's for 3D extrusion
+                            properties[key] !== null &&
+                            properties[key] !== "" &&
+                            properties[key] !== " " &&
+                            properties[key] !== 0 // Exclude zero values if they represent empty data
+                        ) {
+                            let value = properties[key];
+                            if (typeof value === 'number') {
+                                // Format numbers for better readability if they are not too small
+                                value = parseFloat(value.toFixed(4));
+                            }
+                            popupContent += `<span class="text-sm text-gray-300">${key.replace(/_/g, ' ')}: ${value}</span><br>`;
+                        }
+                    }
+
+                    popupContent += '</div>';
+
+                    // Ensure coordinates are within valid range for popup
                     while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
                         coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
                     }
@@ -646,14 +630,7 @@ export default function Map({ isVisible }) {
                         closeOnClick: true,
                     })
                         .setLngLat(coordinates)
-                        .setHTML(
-                            `
-              <div class="text-white">
-                <strong class="text-blue-400">${nama}</strong>
-                <br><span class="text-sm text-gray-300">Type: ${jenis}</span>
-              </div>
-            `
-                        )
+                        .setHTML(popupContent)
                         .addTo(map);
                 });
 
@@ -669,7 +646,7 @@ export default function Map({ isVisible }) {
 
         return () => {
             if (map) {
-                pointLayers.forEach(layerId => {
+                clickableLayers.forEach(layerId => {
                     if (map.getLayer(layerId)) {
                         map.off('click', layerId);
                         map.off('mouseenter', layerId);
@@ -679,7 +656,6 @@ export default function Map({ isVisible }) {
             }
         };
     }, [layers]);
-
 
     const handleLayerToggle = useCallback((groupId) => {
         const map = mapInstanceRef.current;
@@ -715,10 +691,10 @@ export default function Map({ isVisible }) {
                                         map.getSource(layerConfig.sourceId).setData(data);
                                     }
 
-                                    // Jika itu layer simbol, pastikan gambar PNG-nya dimuat
+                                    // If it's a symbol layer, ensure its PNG image is loaded
                                     if (layerConfig.type === 'symbol' && layerConfig.layout && layerConfig.layout['icon-image']) {
                                         const iconName = layerConfig.layout['icon-image'];
-                                        if (!map.hasImage(iconName)) {
+                                        if (iconPaths[iconName] && !map.hasImage(iconName)) { // Hanya load jika ada di iconPaths
                                             console.log(`Adding missing image for toggled layer: ${iconName}`);
                                             const img = new Image();
                                             img.src = iconPaths[iconName];
@@ -741,7 +717,10 @@ export default function Map({ isVisible }) {
                                     }
 
                                     let beforeId = null;
-                                    if (layerConfig.id === 'bangunan-layer') {
+                                    // Make sure umkm-label-layer is added above umkm-circle-layer if they are in the same group
+                                    if (layerConfig.id === 'umkm-label-layer') {
+                                        beforeId = 'umkm-circle-layer';
+                                    } else if (layerConfig.id === 'bangunan-layer') {
                                         beforeId = 'transportasi-group';
                                     }
                                     addLayerToMap(map, layerConfig, beforeId);
@@ -768,7 +747,7 @@ export default function Map({ isVisible }) {
 
             return newLayers;
         });
-    }, [loadGeoJSONData, addSourceToMap, addLayerToMap, is3DMode, iconPaths]); // Tambahkan iconPaths ke dependencies
+    }, [loadGeoJSONData, addSourceToMap, addLayerToMap, is3DMode, iconPaths]);
 
     const toggleSidebar = () => {
         setIsSidebarOpen(!isSidebarOpen);
